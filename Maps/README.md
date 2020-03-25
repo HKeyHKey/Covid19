@@ -22,4 +22,4 @@ From https://www.data.gouv.fr/fr/datasets/contours-des-departements-francais-iss
 ``for f in `ls Carte_*.pdf`;do pdftoppm $f `echo $f | sed 's|\.pdf$||'` -png -rx 300 -ry 300;mv `echo $f | sed 's|\.pdf$|-1.png|'` `echo $f | sed 's|\.pdf$|.png|'`;done;ffmpeg -r 5 -i Carte_nombre_%03d.png -vcodec libx264 -preset veryslow -s 1024x768 -crf 18 Nombre_de_cas.avi;ffmpeg -r 5 -i Carte_taux_%03d.png -vcodec libx264 -preset veryslow -s 1024x768 -crf 18 Taux_de_cas.avi``
 
 Video 'Nombre_de_cas.avi' is published on Youtube at: https://youtu.be/XIJpLlKEF7E
-and video 'Taux_de_cas.avi' is published on Youtube at: https://youtu.be/VlVxPjh-RVg 
+and video 'Taux_de_cas.avi' is published on Youtube at: https://youtu.be/VlVxPjh-RVg.
