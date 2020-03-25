@@ -1,0 +1,190 @@
+library(rgdal)
+regions=rgdal::readOGR('Contours/regions-20180101.shp')
+departements=rgdal::readOGR('Contours/departements-20140306-100m.shp')
+
+data=read.csv2('Donnees_des_ARS.dat',sep='\t')
+
+date=as.Date(data$Date,"%d/%m/%y")
+last_date=max(date)
+for (ID in unique(data$Numéro.de.département))
+if (max(date[data$Numéro.de.département==ID])<last_date) last_date=max(date[data$Numéro.de.département==ID])
+
+nombre=data$Nombre.cumulé.de.cas
+populations_dep=read.csv2('Departements.csv',sep=';')
+populations_reg=read.csv2('Regions.csv',sep=';')
+type=c()
+pop=c()
+territoires=unique(data$Numéro.de.département)
+### Below: stores population data
+for (id in territoires)
+{
+if (length(grep('^[A-Z][A-Z]*$',id))>0)
+{
+type=append(type,'region')
+if (id=='BFC') name='Bourgogne-Franche-Comté'
+if (id=='CVL') name='Centre-Val de Loire'
+if (id=='COR') name='Corse'
+if (id=='HDF') name='Hauts-de-France'
+if (id=='IDF') name='Île-de-France'
+if (id=='OCC') name='Occitanie'
+if (id=='PDL') name='Pays de la Loire'
+pop=append(pop,populations_reg$PTOT[populations_reg$REG==name])
+} else
+{
+type=append(type,'departement')
+pop=append(pop,populations_dep$PTOT[as.numeric(populations_dep$CODDEP)==as.numeric(id)])
+}
+}
+### Above: stores population data
+
+### Below: defines color scales
+COLOR_SLICES=500
+my_palette <- colorRampPalette(c("white","lightblue","blue", "green", "yellow", "orange", "red","black"))(n = COLOR_SLICES+1)
+cas_range=max(pretty(c(0,max(data$Nombre.cumulé.de.cas[as.Date(data$Date,"%d/%m/%y")<=last_date]))))
+
+pop_normalizer=c()
+for (line in 1:length(data$Numéro.de.département))
+pop_normalizer=append(pop_normalizer,pop[territoires==data$Numéro.de.département[line]])
+taux_range=max(pretty(c(0,max(data$Nombre.cumulé.de.cas/pop_normalizer))))
+### Above: defines color scales
+
+### Below: for each date, trace two maps (with raw case numbers, and with population-normalized case numbers):
+date_index=0
+for (d in (min(date)-1):last_date)
+{
+if (d==min(date)-1)
+{
+cas_actu=rep(0,length(territoires))
+taux_actu=rep(0,length(territoires))
+} else
+{
+cas_actu=c()
+taux_actu=c()
+for (t in territoires)
+{
+old_cas=cas[territoires==t]
+old_taux=taux[territoires==t]
+if (is.element(t,data$Numéro.de.département[as.character(date)==as.character(as.Date(d,"%d/%m/%y",origin="01/01/70"))])) # If some data is available for that territory on that date:
+{
+cas_actu=append(cas_actu,data$Nombre.cumulé.de.cas[as.character(date)==as.character(as.Date(d,"%d/%m/%y",origin="01/01/70")) & data$Numéro.de.département==t])
+taux_actu=append(taux_actu,(data$Nombre.cumulé.de.cas/pop_normalizer)[as.character(date)==as.character(as.Date(d,"%d/%m/%y",origin="01/01/70")) & data$Numéro.de.département==t])
+} else # otherwise, simply copy the last recorded value:
+{
+cas_actu=append(cas_actu,old_cas)
+taux_actu=append(taux_actu,old_taux)
+}
+}
+}
+cas=cas_actu
+taux=taux_actu
+color=my_palette[round(cas/cas_range*COLOR_SLICES)+1]
+color_taux=my_palette[round(taux/taux_range*COLOR_SLICES)+1]
+
+### Below: sets colors for départements:
+ordered_color=rep('white',length(departements[[1]]))
+ordered_color_taux=rep('white',length(departements[[1]]))
+for (index in 1:length(departements[[1]]))
+{
+code=as.character(departements[[1]][index])
+if (length(color[type=='departement' & as.character(territoires)==code])>0) # If we have data for that département (otherwise, we'll just plot the data for the corresponding région):
+{
+ordered_color[index]=color[type=='departement' & as.character(territoires)==code]
+ordered_color_taux[index]=color_taux[type=='departement' & as.character(territoires)==code]
+}
+}
+
+
+if (date_index<10)
+{
+date_index=paste('00',date_index,sep='')
+} else
+{
+if (date_index<100)
+{
+date_index=paste('0',date_index,sep='')
+}
+}
+### Below: plots map for raw number of cases:
+pdf(paste('Carte_nombre_',date_index,'.pdf',sep=''),height=8,width=8)
+plot(departements,xlim=c(-6,16),ylim=c(39,53),col=ordered_color)
+par(new=T)
+# regions[[2]] : COR
+# regions[[4]] : IDF
+# regions[[5]] : HDF
+# regions[[6]] : NAQ
+# regions[[7]] : NOR
+# regions[[9]] : PDL
+# regions[[10]] : CVL
+# regions[[11]] : GES
+# regions[[13]] : PACA
+# regions[[15]] : BRE
+# regions[[16]] : BFC
+# regions[[17]] : OCC
+# regions[[18]] : ARA
+ordered_color=rep(0,length(regions))
+ordered_color[2]=color[territoires=='COR']
+ordered_color[4]=color[territoires=='IDF']
+ordered_color[5]=color[territoires=='HDF']
+ordered_color[9]=color[territoires=='PDL']
+ordered_color[10]=color[territoires=='CVL']
+ordered_color[16]=color[territoires=='BFC']
+ordered_color[17]=color[territoires=='OCC']
+plot(regions,xlim=c(-6,16),ylim=c(39,53),col=ordered_color)
+rect(-4.5,39,10,39.3)
+text(-6.2,39.3,'Date :',pos=3)
+text(-4.5,39.3,sub('(.*)-(.*)','\\2/\\1',sub('2020-','',min(date)-1),perl=TRUE),pos=3)
+text(10,39.3,sub('(.*)-(.*)','\\2/\\1',sub('2020-','',last_date),perl=TRUE),pos=3)
+x=as.numeric(as.Date(d,origin="1970-01-01")-min(date)+1)/as.numeric(last_date-min(date)+1)*14.5
+rect(-4.5,39,-4.5+x,39.3,col='gray')
+for (i in 1:(COLOR_SLICES+1))
+{
+rect(12,39.5+(i-1)/50,12.5,39.5+i/50,col=my_palette[i],border=my_palette[i])
+}
+rect(12,39.5,12.5,39.5+501/50)
+text(12.25,50,'Nombre de cas')
+lines(c(12,11.8),c(39.5,39.5))
+lines(c(12,11.8),c(39.5,39.5)+501/100)
+lines(c(12,11.8),c(39.5,39.5)+501/50)
+text(12,39.5,0,pos=2)
+text(12,39.5+501/100,cas_range/2,pos=2)
+text(12,39.5+501/50,cas_range,pos=2)
+text(9,38.7,'Source : https://github.com/HKeyHKey/Covid19',cex=0.7)
+dev.off()
+
+### Below: plots map for population-normalized number of cases:
+pdf(paste('Carte_taux_',date_index,'.pdf',sep=''),height=8,width=8)
+plot(departements,xlim=c(-6,16),ylim=c(39,53),col=ordered_color_taux)
+par(new=T)
+ordered_color_taux=rep(0,length(regions))
+ordered_color_taux[2]=color_taux[territoires=='COR']
+ordered_color_taux[4]=color_taux[territoires=='IDF']
+ordered_color_taux[5]=color_taux[territoires=='HDF']
+ordered_color_taux[9]=color_taux[territoires=='PDL']
+ordered_color_taux[10]=color_taux[territoires=='CVL']
+ordered_color_taux[16]=color_taux[territoires=='BFC']
+ordered_color_taux[17]=color_taux[territoires=='OCC']
+plot(regions,xlim=c(-6,16),ylim=c(39,53),col=ordered_color_taux)
+rect(-4.5,39,10,39.3)
+text(-6.2,39.3,'Date :',pos=3)
+text(-4.5,39.3,sub('(.*)-(.*)','\\2/\\1',sub('2020-','',min(date)-1),perl=TRUE),pos=3)
+text(10,39.3,sub('(.*)-(.*)','\\2/\\1',sub('2020-','',last_date),perl=TRUE),pos=3)
+x=as.numeric(as.Date(d,origin="1970-01-01")-min(date)+1)/as.numeric(last_date-min(date)+1)*14.5
+rect(-4.5,39,-4.5+x,39.3,col='gray')
+for (i in 1:(COLOR_SLICES+1))
+{
+rect(12,39.5+(i-1)/50,12.5,39.5+i/50,col=my_palette[i],border=my_palette[i])
+}
+rect(12,39.5,12.5,39.5+501/50)
+text(12.25,50,'Cas pour 100 000 hab. :')
+lines(c(12,11.8),c(39.5,39.5))
+lines(c(12,11.8),c(39.5,39.5)+501/100)
+lines(c(12,11.8),c(39.5,39.5)+501/50)
+text(12,39.5,0,pos=2)
+text(12,39.5+501/100,taux_range*100000/2,pos=2)
+text(12,39.5+501/50,taux_range*100000,pos=2)
+text(9,38.7,'Source : https://github.com/HKeyHKey/Covid19',cex=0.7)
+dev.off()
+date_index=as.numeric(date_index)+1
+}
+
+

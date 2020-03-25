@@ -1,0 +1,924 @@
+Numéro de département	Date	Nombre cumulé de cas	Source	Observations
+01	07/02/2020	0	Médias grand public : pas de cas détecté en Auvergne-Rhône-Alpes jusqu'au 7 février 2020 inclus	aucune
+03	07/02/2020	0	Médias grand public : pas de cas détecté en Auvergne-Rhône-Alpes jusqu'au 7 février 2020 inclus	aucune
+07	07/02/2020	0	Médias grand public : pas de cas détecté en Auvergne-Rhône-Alpes jusqu'au 7 février 2020 inclus	aucune
+15	07/02/2020	0	Médias grand public : pas de cas détecté en Auvergne-Rhône-Alpes jusqu'au 7 février 2020 inclus	aucune
+26	07/02/2020	0	Médias grand public : pas de cas détecté en Auvergne-Rhône-Alpes jusqu'au 7 février 2020 inclus	aucune
+38	07/02/2020	0	Médias grand public : pas de cas détecté en Auvergne-Rhône-Alpes jusqu'au 7 février 2020 inclus	aucune
+42	07/02/2020	0	Médias grand public : pas de cas détecté en Auvergne-Rhône-Alpes jusqu'au 7 février 2020 inclus	aucune
+43	07/02/2020	0	Médias grand public : pas de cas détecté en Auvergne-Rhône-Alpes jusqu'au 7 février 2020 inclus	aucune
+63	07/02/2020	0	Médias grand public : pas de cas détecté en Auvergne-Rhône-Alpes jusqu'au 7 février 2020 inclus	aucune
+69	07/02/2020	0	Médias grand public : pas de cas détecté en Auvergne-Rhône-Alpes jusqu'au 7 février 2020 inclus	aucune
+73	07/02/2020	0	Médias grand public : pas de cas détecté en Auvergne-Rhône-Alpes jusqu'au 7 février 2020 inclus	aucune
+74	07/02/2020	0	Médias grand public : pas de cas détecté en Auvergne-Rhône-Alpes jusqu'au 7 février 2020 inclus	aucune
+74	08/02/2020	5	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-sur-la-situation-en-haute-savoie-prises-en-charge-de-patients-confirmes-en-auvergne	aucune
+74	11/02/2020	5	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-sur-la-situation-en-haute-savoie	aucune
+74	12/02/2020	5	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-au-12-fevrier-en-haute-savoie	aucune
+74	27/02/2020	7	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes	aucune
+74	02/03/2020	31	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-au-lundi-2-mars-14h	Incohérence avec le point précédent (5 cas à Contamines le 27/02, maintenant ils parlent de 6)
+69	02/03/2020	4	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-au-lundi-2-mars-14h	aucune
+01	02/03/2020	3	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-au-lundi-2-mars-14h	aucune
+74	03/03/2020	35	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mardi-3-mars-12h	Les 6 cas guéris de Contamines ne sont pas comptabilisés dans les 29 cas décrits
+69	03/03/2020	4	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mardi-3-mars-12h	aucune
+01	03/03/2020	3	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mardi-3-mars-12h	aucune
+73	04/03/2020	2	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-savoie-2-personnes-prises-en-charge-au-ch-de-chambery	aucune
+74	04/03/2020	45	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-4-mars-10-h	Les 6 cas guéris de Contamines ne sont pas comptabilisés dans les 39 cas décrits
+69	04/03/2020	5	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-4-mars-10-h	aucune
+01	04/03/2020	4	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-4-mars-10-h	aucune
+26	04/03/2020	2	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-drome	Plus précis que https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-4-mars-10-h
+01	05/03/2020	4	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-jeudi-5-mars-2020-14h	aucune
+26	05/03/2020	3	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-jeudi-5-mars-2020-14h	aucune
+69	05/03/2020	12	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-jeudi-5-mars-2020-14h	aucune
+73	05/03/2020	2	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-jeudi-5-mars-2020-14h	aucune
+74	05/03/2020	45	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-jeudi-5-mars-2020-14h	Les 6 cas guéris de Contamines ne sont pas comptabilisés dans les 39 cas décrits
+63	05/03/2020	3	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-jeudi-5-mars-2020-14h	aucune
+07	06/03/2020	2	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-ardeche	aucune
+63	06/03/2020	5	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-dans-le-puy-de-dome-0	aucune
+42	06/03/2020	1	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-dans-la-loire	aucune
+01	06/03/2020	4	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-en-auvergne-rhone-alpes-6-mars-2020	aucune
+26	06/03/2020	3	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-en-auvergne-rhone-alpes-6-mars-2020	aucune
+69	06/03/2020	21	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-en-auvergne-rhone-alpes-6-mars-2020	aucune
+73	06/03/2020	3	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-en-auvergne-rhone-alpes-6-mars-2020	aucune
+74	06/03/2020	54	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-en-auvergne-rhone-alpes-6-mars-2020	Les 6 cas guéris de Contamines ne sont pas comptabilisés dans les 48 cas décrits
+01	07/03/2020	7	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-au-samedi-7-mars-14h	aucune
+07	07/03/2020	2	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-au-samedi-7-mars-14h	aucune
+26	07/03/2020	16	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-au-samedi-7-mars-14h	aucune
+42	07/03/2020	2	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-au-samedi-7-mars-14h	aucune
+63	07/03/2020	5	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-au-samedi-7-mars-14h	aucune
+69	07/03/2020	32	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-au-samedi-7-mars-14h	aucune
+73	07/03/2020	3	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-au-samedi-7-mars-14h	aucune
+74	07/03/2020	64	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-au-samedi-7-mars-14h	Les 6 cas guéris de Contamines ne sont pas comptabilisés dans les 64 cas décrits
+38	07/03/2020	0	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-au-samedi-7-mars-14h	1 cas originaire de l'Île-de-France, mais ayant séjourné en Isère, et hospitalisée à Grenoble : ce cas ne sera plus compté dans les communiqués suivants, donc par cohérence je l'enlève d'ici aussi
+01	08/03/2020	8	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-dimanche-8-mars	aucune
+07	08/03/2020	3	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-dimanche-8-mars	aucune
+26	08/03/2020	16	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-dimanche-8-mars	aucune
+42	08/03/2020	6	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-dimanche-8-mars	aucune
+63	08/03/2020	7	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-dimanche-8-mars	aucune
+69	08/03/2020	44	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-dimanche-8-mars	aucune
+73	08/03/2020	3	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-dimanche-8-mars	aucune
+74	08/03/2020	67	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-dimanche-8-mars	8 personnes guéries ne sont pas comptabilisées dans les 59 cas décrits
+38	09/03/2020	1	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-isere	1 cas originaire de l'Île-de-France, mais ayant séjourné en Isère, et hospitalisée à Grenoble : ce cas ne sera plus compté dans les communiqués suivants, donc par cohérence je l'enlève d'ici aussi
+01	09/03/2020	17	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-en-en-auvergne-rhone-alpes-9-mars-2020	aucune
+07	09/03/2020	6	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-en-en-auvergne-rhone-alpes-9-mars-2020	aucune
+26	09/03/2020	16	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-en-en-auvergne-rhone-alpes-9-mars-2020	La personne décédée est comptabilisée dans les 16 cas décrits
+42	09/03/2020	15	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-en-en-auvergne-rhone-alpes-9-mars-2020	aucune
+63	09/03/2020	9	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-en-en-auvergne-rhone-alpes-9-mars-2020	aucune
+69	09/03/2020	49	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-en-en-auvergne-rhone-alpes-9-mars-2020	La personne décédée est comptabilisée dans les 49 cas décrits
+73	09/03/2020	3	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-en-en-auvergne-rhone-alpes-9-mars-2020	La personne décédée est comptabilisée dans les 3 cas décrits
+74	09/03/2020	66	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-en-en-auvergne-rhone-alpes-9-mars-2020	Incohérence avec les données du 8 mars (ici les 8 personnes guéries sont explicitement comptabilisées dans les 66 cas, or il y avait 67 cas la veille)
+01	10/03/2020	23	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-10-mars-2020-15h	aucune
+07	10/03/2020	6	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-10-mars-2020-15h	aucune
+26	10/03/2020	20	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-10-mars-2020-15h	aucune
+38	10/03/2020	3	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-10-mars-2020-15h	La personne résidant en Île-de-France, mais hospitalisée à Grenoble, n'est pas comptabilisée dans les 3 cas décrits
+42	10/03/2020	29	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-10-mars-2020-15h	aucune
+63	10/03/2020	11	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-10-mars-2020-15h	aucune
+69	10/03/2020	60	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-10-mars-2020-15h	aucune
+73	10/03/2020	4	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-10-mars-2020-15h	aucune
+74	10/03/2020	71	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-10-mars-2020-15h	aucune
+01	11/03/2020	26	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-11-mars-15-h	Le « (+3) » indique visiblement l'augmentation du nombre de cas depuis le point précédent (la veille)
+07	11/03/2020	6	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-11-mars-15-h	Le « (+0) » indique visiblement l'augmentation du nombre de cas depuis le point précédent (la veille)
+26	11/03/2020	24	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-11-mars-15-h	Le « (+4) » indique visiblement l'augmentation du nombre de cas depuis le point précédent (la veille)
+38	11/03/2020	13	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-11-mars-15-h	Le « (+10) » indique visiblement l'augmentation du nombre de cas depuis le point précédent (la veille) ; la personne résidant en Île-de-France mais hospitalisée à Grenoble n'est plus mentionnée
+42	11/03/2020	34	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-11-mars-15-h	Le « (+5) » indique visiblement l'augmentation du nombre de cas depuis le point précédent (la veille)
+43	11/03/2020	4	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-11-mars-15-h	Le « (+4) » indique visiblement l'augmentation du nombre de cas depuis le point précédent (la veille)
+63	11/03/2020	11	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-11-mars-15-h	Le « (+0) » indique visiblement l'augmentation du nombre de cas depuis le point précédent (la veille)
+69	11/03/2020	72	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-11-mars-15-h	Le « (+12) » indique visiblement l'augmentation du nombre de cas depuis le point précédent (la veille)
+73	11/03/2020	4	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-11-mars-15-h	Le « (+0) » indique visiblement l'augmentation du nombre de cas depuis le point précédent (la veille)
+74	11/03/2020	72	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-point-de-situation-mercredi-11-mars-15-h	Le « (+1) » indique visiblement l'augmentation du nombre de cas depuis le point précédent (la veille)
+03	12/03/2020	1	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-dans-lallier	aucune
+01	12/03/2020	31	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-12-mars-2020-15h	aucune
+07	12/03/2020	15	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-12-mars-2020-15h	aucune
+26	12/03/2020	33	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-12-mars-2020-15h	aucune
+38	12/03/2020	16	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-12-mars-2020-15h	aucune
+42	12/03/2020	43	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-12-mars-2020-15h	aucune
+43	12/03/2020	5	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-12-mars-2020-15h	aucune
+63	12/03/2020	13	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-12-mars-2020-15h	aucune
+69	12/03/2020	87	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-12-mars-2020-15h	aucune
+73	12/03/2020	6	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-12-mars-2020-15h	aucune
+74	12/03/2020	83	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-12-mars-2020-15h	aucune
+15	13/03/2020	1	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-dans-le-cantal	Personne résidant en Charente-maritime, mais de passage dans le Cantal, et hospitalisée à Aurillac
+01	13/03/2020	39	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	Déduit des statistiques du 14 mars, avec la donnée de l'augmentation depuis le 13 mars (mais les nombres, département par département, ne sont pas tout à fait compatibles avec les nombres donnés pour toute la région, dans le paragraphe d'introduction)
+03	13/03/2020	1	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	Déduit des statistiques du 14 mars, avec la donnée de l'augmentation depuis le 13 mars (mais les nombres, département par département, ne sont pas tout à fait compatibles avec les nombres donnés pour toute la région, dans le paragraphe d'introduction)
+07	13/03/2020	17	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	Déduit des statistiques du 14 mars, avec la donnée de l'augmentation depuis le 13 mars (mais les nombres, département par département, ne sont pas tout à fait compatibles avec les nombres donnés pour toute la région, dans le paragraphe d'introduction)
+26	13/03/2020	42	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	Déduit des statistiques du 14 mars, avec la donnée de l'augmentation depuis le 13 mars (mais les nombres, département par département, ne sont pas tout à fait compatibles avec les nombres donnés pour toute la région, dans le paragraphe d'introduction)
+38	13/03/2020	23	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	Déduit des statistiques du 14 mars, avec la donnée de l'augmentation depuis le 13 mars (mais les nombres, département par département, ne sont pas tout à fait compatibles avec les nombres donnés pour toute la région, dans le paragraphe d'introduction)
+42	13/03/2020	47	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	Déduit des statistiques du 14 mars, avec la donnée de l'augmentation depuis le 13 mars (mais les nombres, département par département, ne sont pas tout à fait compatibles avec les nombres donnés pour toute la région, dans le paragraphe d'introduction)
+43	13/03/2020	6	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	Déduit des statistiques du 14 mars, avec la donnée de l'augmentation depuis le 13 mars (mais les nombres, département par département, ne sont pas tout à fait compatibles avec les nombres donnés pour toute la région, dans le paragraphe d'introduction)
+63	13/03/2020	15	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	Déduit des statistiques du 14 mars, avec la donnée de l'augmentation depuis le 13 mars (mais les nombres, département par département, ne sont pas tout à fait compatibles avec les nombres donnés pour toute la région, dans le paragraphe d'introduction)
+69	13/03/2020	115	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	Déduit des statistiques du 14 mars, avec la donnée de l'augmentation depuis le 13 mars (mais les nombres, département par département, ne sont pas tout à fait compatibles avec les nombres donnés pour toute la région, dans le paragraphe d'introduction)
+73	13/03/2020	16	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	Déduit des statistiques du 14 mars, avec la donnée de l'augmentation depuis le 13 mars (mais les nombres, département par département, ne sont pas tout à fait compatibles avec les nombres donnés pour toute la région, dans le paragraphe d'introduction)
+74	13/03/2020	92	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	Déduit des statistiques du 14 mars, avec la donnée de l'augmentation depuis le 13 mars (mais les nombres, département par département, ne sont pas tout à fait compatibles avec les nombres donnés pour toute la région, dans le paragraphe d'introduction)
+01	14/03/2020	43	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	aucune
+03	14/03/2020	2	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	aucune
+07	14/03/2020	20	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	aucune
+15	14/03/2020	1	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	aucune
+26	14/03/2020	45	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	aucune
+38	14/03/2020	29	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	aucune
+42	14/03/2020	54	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	aucune
+43	14/03/2020	7	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	aucune
+63	14/03/2020	16	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	aucune
+69	14/03/2020	123	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	aucune
+73	14/03/2020	18	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	aucune
+74	14/03/2020	92	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-du-samedi-14-mars-2020	aucune
+01	15/03/2020	52	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-ara-point-de-situation-dimanche-15-mars-2020	aucune
+03	15/03/2020	4	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-ara-point-de-situation-dimanche-15-mars-2020	aucune
+07	15/03/2020	24	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-ara-point-de-situation-dimanche-15-mars-2020	aucune
+15	15/03/2020	1	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-ara-point-de-situation-dimanche-15-mars-2020	L'un des deux cas est domicilié dans une autre région, il ne sera plus comptabilisé dans les communiqués suivants : par cohérence, je l'enlève d'ici aussi
+26	15/03/2020	46	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-ara-point-de-situation-dimanche-15-mars-2020	aucune
+38	15/03/2020	34	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-ara-point-de-situation-dimanche-15-mars-2020	aucune
+42	15/03/2020	64	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-ara-point-de-situation-dimanche-15-mars-2020	aucune
+43	15/03/2020	7	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-ara-point-de-situation-dimanche-15-mars-2020	aucune
+63	15/03/2020	19	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-ara-point-de-situation-dimanche-15-mars-2020	aucune
+69	15/03/2020	136	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-ara-point-de-situation-dimanche-15-mars-2020	aucune
+73	15/03/2020	22	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-ara-point-de-situation-dimanche-15-mars-2020	aucune
+74	15/03/2020	115	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-ara-point-de-situation-dimanche-15-mars-2020	aucune
+01	16/03/2020	59	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-16-mars-2020-15h	aucune
+03	16/03/2020	5	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-16-mars-2020-15h	aucune
+07	16/03/2020	29	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-16-mars-2020-15h	aucune
+15	16/03/2020	1	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-16-mars-2020-15h	aucune
+26	16/03/2020	69	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-16-mars-2020-15h	aucune
+43	16/03/2020	7	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-16-mars-2020-15h	aucune
+38	16/03/2020	35	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-16-mars-2020-15h	aucune
+42	16/03/2020	76	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-16-mars-2020-15h	aucune
+63	16/03/2020	20	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-16-mars-2020-15h	aucune
+69	16/03/2020	164	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-16-mars-2020-15h	aucune
+73	16/03/2020	26	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-16-mars-2020-15h	aucune
+74	16/03/2020	126	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-16-mars-2020-15h	aucune
+01	17/03/2020	75	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-17-mars-2020-15h	aucune
+03	17/03/2020	7	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-17-mars-2020-15h	aucune
+07	17/03/2020	40	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-17-mars-2020-15h	aucune
+15	17/03/2020	1	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-17-mars-2020-15h	aucune
+26	17/03/2020	71	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-17-mars-2020-15h	aucune
+43	17/03/2020	7	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-17-mars-2020-15h	aucune
+38	17/03/2020	44	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-17-mars-2020-15h	aucune
+42	17/03/2020	87	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-17-mars-2020-15h	aucune
+63	17/03/2020	26	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-17-mars-2020-15h	aucune
+69	17/03/2020	181	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-17-mars-2020-15h	aucune
+73	17/03/2020	26	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-17-mars-2020-15h	aucune
+74	17/03/2020	141	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mardi-17-mars-2020-15h	aucune
+01	18/03/2020	77	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mercredi-18-mars-15h	aucune
+03	18/03/2020	9	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mercredi-18-mars-15h	aucune
+07	18/03/2020	47	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mercredi-18-mars-15h	aucune
+15	18/03/2020	5	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mercredi-18-mars-15h	aucune
+26	18/03/2020	77	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mercredi-18-mars-15h	aucune
+43	18/03/2020	7	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mercredi-18-mars-15h	aucune
+38	18/03/2020	58	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mercredi-18-mars-15h	aucune
+42	18/03/2020	120	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mercredi-18-mars-15h	aucune
+63	18/03/2020	31	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mercredi-18-mars-15h	aucune
+69	18/03/2020	220	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mercredi-18-mars-15h	aucune
+73	18/03/2020	34	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mercredi-18-mars-15h	aucune
+74	18/03/2020	161	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-mercredi-18-mars-15h	aucune
+01	19/03/2020	84	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-19-mars	aucune
+03	19/03/2020	10	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-19-mars	aucune
+07	19/03/2020	48	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-19-mars	aucune
+15	19/03/2020	10	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-19-mars	aucune
+26	19/03/2020	86	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-19-mars	aucune
+43	19/03/2020	8	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-19-mars	aucune
+38	19/03/2020	66	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-19-mars	aucune
+42	19/03/2020	145	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-19-mars	aucune
+63	19/03/2020	34	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-19-mars	aucune
+69	19/03/2020	267	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-19-mars	aucune
+73	19/03/2020	47	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-19-mars	aucune
+74	19/03/2020	199	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-jeudi-19-mars	aucune
+43	20/03/2020	10	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-haute-loire-0	aucune
+01	21/03/2020	92	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-samedi-21-mars	aucune
+03	21/03/2020	18	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-samedi-21-mars	aucune
+07	21/03/2020	55	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-samedi-21-mars	aucune
+15	21/03/2020	12	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-samedi-21-mars	aucune
+26	21/03/2020	93	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-samedi-21-mars	aucune
+43	21/03/2020	11	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-samedi-21-mars	aucune
+38	21/03/2020	103	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-samedi-21-mars	aucune
+42	21/03/2020	174	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-samedi-21-mars	aucune
+63	21/03/2020	47	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-samedi-21-mars	aucune
+69	21/03/2020	337	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-samedi-21-mars	aucune
+73	21/03/2020	71	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-samedi-21-mars	aucune
+74	21/03/2020	240	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-samedi-21-mars	aucune
+01	22/03/2020	97	https://www.auvergne-rhone-alpes.ars.sante.fr/communique-de-presse-covid-19-point-de-situation-dimanche-22-mars	aucune
+03	22/03/2020	27	https://www.auvergne-rhone-alpes.ars.sante.fr/communique-de-presse-covid-19-point-de-situation-dimanche-22-mars	aucune
+07	22/03/2020	57	https://www.auvergne-rhone-alpes.ars.sante.fr/communique-de-presse-covid-19-point-de-situation-dimanche-22-mars	aucune
+15	22/03/2020	17	https://www.auvergne-rhone-alpes.ars.sante.fr/communique-de-presse-covid-19-point-de-situation-dimanche-22-mars	aucune
+26	22/03/2020	99	https://www.auvergne-rhone-alpes.ars.sante.fr/communique-de-presse-covid-19-point-de-situation-dimanche-22-mars	aucune
+43	22/03/2020	13	https://www.auvergne-rhone-alpes.ars.sante.fr/communique-de-presse-covid-19-point-de-situation-dimanche-22-mars	aucune
+38	22/03/2020	117	https://www.auvergne-rhone-alpes.ars.sante.fr/communique-de-presse-covid-19-point-de-situation-dimanche-22-mars	aucune
+42	22/03/2020	217	https://www.auvergne-rhone-alpes.ars.sante.fr/communique-de-presse-covid-19-point-de-situation-dimanche-22-mars	aucune
+63	22/03/2020	57	https://www.auvergne-rhone-alpes.ars.sante.fr/communique-de-presse-covid-19-point-de-situation-dimanche-22-mars	aucune
+69	22/03/2020	381	https://www.auvergne-rhone-alpes.ars.sante.fr/communique-de-presse-covid-19-point-de-situation-dimanche-22-mars	aucune
+73	22/03/2020	72	https://www.auvergne-rhone-alpes.ars.sante.fr/communique-de-presse-covid-19-point-de-situation-dimanche-22-mars	aucune
+74	22/03/2020	256	https://www.auvergne-rhone-alpes.ars.sante.fr/communique-de-presse-covid-19-point-de-situation-dimanche-22-mars	aucune
+BFC	25/02/2020	0	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-organisation-de-la-reponse-sanitaire-en-bourgogne-franche-comte	aucune
+BFC	28/02/2020	5	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-un-nouveau-cas-confirme-lie-aux-precedents-pris-en-charge-au-chu-de-dijon	aucune
+BFC	01/03/2020	10	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-cinq-nouveaux-cas-confirmes-lies-aux-precedents-pris-en-charge-par-le-chu-de	aucune
+BFC	03/03/2020	15	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-cinq-nouveaux-cas-confirmes-en-region-pris-en-charge-par-le-chu-de-dijon	aucune
+BFC	04/03/2020	19	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-quatre-nouveaux-cas-confirmes-en-region-bourgogne-franche-comte-des-prises-en	aucune
+BFC	05/03/2020	44	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-25-nouveaux-cas-confirmes-en-bourgogne-franche-comte	aucune
+BFC	06/03/2020	80	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-36-nouveaux-cas-confirmes-et-2-guerisons-recensees	aucune
+BFC	07/03/2020	106	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-point-de-situation-14h-26-nouveaux-cas-confirmes-en-region	aucune
+BFC	08/03/2020	112	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-point-de-situation-14h-6-nouveaux-cas-confirmes-en-region	aucune
+BFC	09/03/2020	119	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-119-cas-recenses-en-bourgogne-franche-comte	aucune
+BFC	10/03/2020	147	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-point-de-situation-en-bourgogne-franche-comte	aucune
+BFC	11/03/2020	165	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-point-de-situation-en-bourgogne-franche-comte-0	aucune
+BFC	12/03/2020	219	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-point-de-situation-en-bourgogne-franche-comte-ce-jeudi-12-mars	aucune
+BFC	13/03/2020	272	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-point-de-situation-en-bourgogne-franche-comte-ce-vendredi-13-mars	aucune
+BFC	14/03/2020	339	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-point-de-situation-en-bourgogne-franche-comte-ce-samedi-14-mars	aucune
+BFC	15/03/2020	412	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-en-bourgogne-franche-comte-rester-chez-soi-autant-que-possible	aucune
+BFC	16/03/2020	507	https://www.bourgogne-franche-comte.ars.sante.fr/coronavirus-covid-19-en-bourgogne-franche-comte-deja-28-personnes-en-reanimation-adaptez-vos	aucune
+BFC	17/03/2020	549	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-bourgogne-fc (consulté le 23 mars 2020)	aucune
+BFC	18/03/2020	593	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-bourgogne-fc (consulté le 23 mars 2020)	aucune
+BFC	19/03/2020	696	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-bourgogne-fc (consulté le 23 mars 2020)	aucune
+BFC	20/03/2020	770	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-bourgogne-fc (consulté le 23 mars 2020)	aucune
+BFC	21/03/2020	903	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-bourgogne-fc (consulté le 23 mars 2020)	aucune
+BFC	22/03/2020	1178	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-bourgogne-fc (consulté le 23 mars 2020)	aucune
+22	26/02/2020	0	https://www.bretagne.ars.sante.fr/coronavirus-premier-cas-confirme-en-bretagne	Le cas annoncé le 28 février (détecté le 27 d'après /coronavirus-4-cas-confirmes-en-bretagne) était le 1er dans la régio Bretagne, il n'y en avait donc aucun au 26 février
+29	26/02/2020	0	https://www.bretagne.ars.sante.fr/coronavirus-premier-cas-confirme-en-bretagne	Le cas annoncé le 28 février (détecté le 27 d'après /coronavirus-4-cas-confirmes-en-bretagne) était le 1er dans la régio Bretagne, il n'y en avait donc aucun au 26 février
+35	26/02/2020	0	https://www.bretagne.ars.sante.fr/coronavirus-premier-cas-confirme-en-bretagne	Le cas annoncé le 28 février (détecté le 27 d'après /coronavirus-4-cas-confirmes-en-bretagne) était le 1er dans la régio Bretagne, il n'y en avait donc aucun au 26 février
+56	26/02/2020	0	https://www.bretagne.ars.sante.fr/coronavirus-premier-cas-confirme-en-bretagne	Le cas annoncé le 28 février (détecté le 27 d'après /coronavirus-4-cas-confirmes-en-bretagne) était le 1er dans la régio Bretagne, il n'y en avait donc aucun au 26 février
+29	27/02/2020	1	https://www.bretagne.ars.sante.fr/coronavirus-4-cas-confirmes-en-bretagne	aucune
+29	28/02/2020	2	https://www.bretagne.ars.sante.fr/coronavirus-4-cas-confirmes-en-bretagne	aucune
+35	29/02/2020	2	https://www.bretagne.ars.sante.fr/coronavirus-4-cas-confirmes-en-bretagne	aucune
+35	01/03/2020	4	https://www.bretagne.ars.sante.fr/coronavirus-19-cas-confirmes-en-bretagne	aucune
+56	01/03/2020	9	https://www.bretagne.ars.sante.fr/coronavirus-19-cas-confirmes-en-bretagne	aucune
+56	02/03/2020	12	https://www.bretagne.ars.sante.fr/coronavirus-19-cas-confirmes-en-bretagne	aucune
+29	02/03/2020	3	https://www.bretagne.ars.sante.fr/coronavirus-19-cas-confirmes-en-bretagne	aucune
+56	04/03/2020	22	https://www.bretagne.ars.sante.fr/coronavirus-point-de-situation-du-mercredi-4-mars-2020-20h30-5-nouveaux-cas-confirmes-dans-le	aucune
+35	04/03/2020	4	https://www.bretagne.ars.sante.fr/coronavirus-23-cas-confirmes-en-bretagne-et-premier-deces-dun-patient	Déduit des données des jours précédents, dans la répartition des 7 cas bretons hors-Morbihan
+29	04/03/2020	3	https://www.bretagne.ars.sante.fr/coronavirus-23-cas-confirmes-en-bretagne-et-premier-deces-dun-patient	Déduit des données des jours précédents, dans la répartition des 7 cas bretons hors-Morbihan
+29	05/03/2020	3	https://www.bretagne.ars.sante.fr/coronavirus-point-de-situation-17h-et-mesures-concernant-les-rassemblements	aucune
+35	05/03/2020	5	https://www.bretagne.ars.sante.fr/coronavirus-point-de-situation-17h-et-mesures-concernant-les-rassemblements	aucune
+56	05/03/2020	23	https://www.bretagne.ars.sante.fr/coronavirus-point-de-situation-17h-et-mesures-concernant-les-rassemblements	aucune
+29	06/03/2020	4	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-encadrement-du-prix-de-vente-des-gels-hydro	aucune
+35	06/03/2020	35	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-encadrement-du-prix-de-vente-des-gels-hydro	aucune
+56	06/03/2020	24	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-encadrement-du-prix-de-vente-des-gels-hydro	aucune
+56	07/03/2020	35	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-mesures-destinees-freiner-la-propagation-du	aucune
+29	07/03/2020	5	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-mesures-destinees-freiner-la-propagation-du	aucune
+35	07/03/2020	7	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-mesures-destinees-freiner-la-propagation-du	aucune
+56	08/03/2020	47	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-mesures-destinees-freiner-la-propagation-0	aucune
+29	08/03/2020	5	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-mesures-destinees-freiner-la-propagation-du	aucune
+35	08/03/2020	7	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-mesures-destinees-freiner-la-propagation-du	aucune
+56	09/03/2020	55	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-mesures-destinees-freiner-la-propagation-1	aucune
+29	09/03/2020	5	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-mesures-destinees-freiner-la-propagation-1	aucune
+35	09/03/2020	11	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-mesures-destinees-freiner-la-propagation-1	aucune
+56	10/03/2020	63	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-mesures-destinees-freiner-la-propagation-2	aucune
+29	10/03/2020	7	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-mesures-destinees-freiner-la-propagation-2	aucune
+35	10/03/2020	11	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-mesures-destinees-freiner-la-propagation-2	aucune
+56	11/03/2020	73	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-11-mars-2020-et-mesures-estinees-freiner-la	aucune
+29	11/03/2020	7	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-11-mars-2020-et-mesures-estinees-freiner-la	aucune
+35	11/03/2020	20	https://www.bretagne.ars.sante.fr/coronavirus-en-ille-et-vilaine-la-commune-de-bruz-classee-zone-de-circulation-active-du-virus	Donnent juste le nombre de nouveaux cas sur la journée du 11 mars, et comme on connaissait le nombre de cas le 10 mars, j'ai additionné les deux pour avoir le nombre cumulé (mais il reste possible qu'il y ait eu des nouveaux cas, hors de Bruz ; cette page, ainsi que https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-11-mars-2020-et-mesures-estinees-freiner-la, n'est pas claire là-dessus)
+56	12/03/2020	85	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-12-mars-2020-et-mesures-destinees-freiner-la	aucune
+35	12/03/2020	22	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-12-mars-2020-et-mesures-destinees-freiner-la	aucune
+29	12/03/2020	12	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-12-mars-2020-et-mesures-destinees-freiner-la	aucune
+22	12/03/2020	1	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-12-mars-2020-et-mesures-destinees-freiner-la	aucune
+56	13/03/2020	100	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-nouvelles-mesures-destinees-freiner-la	aucune
+35	13/03/2020	34	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-nouvelles-mesures-destinees-freiner-la	aucune
+29	13/03/2020	22	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-nouvelles-mesures-destinees-freiner-la	aucune
+22	13/03/2020	1	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-et-nouvelles-mesures-destinees-freiner-la	aucune
+56	14/03/2020	106	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-du-samedi-14-mars-2020-et-nouvelles-mesures	aucune
+35	14/03/2020	34	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-du-samedi-14-mars-2020-et-nouvelles-mesures	aucune
+29	14/03/2020	34	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-du-samedi-14-mars-2020-et-nouvelles-mesures	aucune
+22	14/03/2020	4	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-du-samedi-14-mars-2020-et-nouvelles-mesures	aucune
+56	15/03/2020	114	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-dimanche-15-mars-2020-et-nouvelles-mesures-destinees	aucune
+35	15/03/2020	43	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-dimanche-15-mars-2020-et-nouvelles-mesures-destinees	aucune
+29	15/03/2020	34	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-dimanche-15-mars-2020-et-nouvelles-mesures-destinees	aucune
+22	15/03/2020	4	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-dimanche-15-mars-2020-et-nouvelles-mesures-destinees	aucune
+56	16/03/2020	129	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-au-lundi-16-mars-sanitaire-et-mesures	aucune
+35	16/03/2020	44	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-au-lundi-16-mars-sanitaire-et-mesures	aucune
+29	16/03/2020	35	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-au-lundi-16-mars-sanitaire-et-mesures	aucune
+22	16/03/2020	5	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-au-lundi-16-mars-sanitaire-et-mesures	aucune
+56	17/03/2020	132	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-mardi-17-mars-2020-et-mesures-destinees-freiner-la	aucune
+35	17/03/2020	50	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-mardi-17-mars-2020-et-mesures-destinees-freiner-la	aucune
+29	17/03/2020	43	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-mardi-17-mars-2020-et-mesures-destinees-freiner-la	aucune
+22	17/03/2020	11	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-mardi-17-mars-2020-et-mesures-destinees-freiner-la	aucune
+56	18/03/2020	134	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-mercredi-18-mars-2020-et-mesures-destinees-freiner-la	aucune
+35	18/03/2020	55	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-mercredi-18-mars-2020-et-mesures-destinees-freiner-la	aucune
+29	18/03/2020	51	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-mercredi-18-mars-2020-et-mesures-destinees-freiner-la	aucune
+22	18/03/2020	12	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-mercredi-18-mars-2020-et-mesures-destinees-freiner-la	aucune
+56	19/03/2020	134	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-jeudi-19-mars-2020-et-mesures-freiner-la-propagation	aucune
+35	19/03/2020	58	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-jeudi-19-mars-2020-et-mesures-freiner-la-propagation	aucune
+29	19/03/2020	60	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-jeudi-19-mars-2020-et-mesures-freiner-la-propagation	aucune
+22	19/03/2020	16	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-jeudi-19-mars-2020-et-mesures-freiner-la-propagation	aucune
+56	20/03/2020	134	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-vendredi-20-mars-2020-et-mesures-destinees-freiner-la	aucune
+35	20/03/2020	72	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-vendredi-20-mars-2020-et-mesures-destinees-freiner-la	aucune
+29	20/03/2020	79	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-vendredi-20-mars-2020-et-mesures-destinees-freiner-la	aucune
+22	20/03/2020	21	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-vendredi-20-mars-2020-et-mesures-destinees-freiner-la	aucune
+56	21/03/2020	157	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-samedi-21-mars-2020-et-mesures-destinees-freiner-la	aucune
+29	21/03/2020	91	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-samedi-21-mars-2020-et-mesures-destinees-freiner-la	aucune
+35	21/03/2020	84	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-samedi-21-mars-2020-et-mesures-destinees-freiner-la	aucune
+22	21/03/2020	27	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-samedi-21-mars-2020-et-mesures-destinees-freiner-la	aucune
+CVL	03/03/2020	0	https://www.centre-val-de-loire.ars.sante.fr/coronavirus-deux-premiers-cas-confirmes-en-region-centre-val-de-loire	Premiers cas découverts le 4 mars, donc on n'en connaissait aucun dans la région jusqu'au 3 mars
+CVL	04/03/2020	2	https://www.centre-val-de-loire.ars.sante.fr/coronavirus-deux-premiers-cas-confirmes-en-region-centre-val-de-loire	aucune
+CVL	05/03/2020	3	https://www.centre-val-de-loire.ars.sante.fr/coronavirus-un-troisieme-cas-confirme-en-region-centre-val-de-loire	aucune
+CVL	06/03/2020	7	https://www.centre-val-de-loire.ars.sante.fr/coronavirus-quatre-nouveaux-cas-confirmes-en-region-centre-val-de-loire	aucune
+CVL	08/03/2020	17	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	09/03/2020	17	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	10/03/2020	17	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	11/03/2020	20	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	12/03/2020	30	https://www.centre-val-de-loire.ars.sante.fr/coronavirus-point-de-situation-au-12-mars-en-region-centre-val-de-loire	aucune
+CVL	13/03/2020	33	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	14/03/2020	54	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	15/03/2020	71	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	16/03/2020	90	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	17/03/2020	103	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	18/03/2020	128	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	19/03/2020	157	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	20/03/2020	219	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	21/03/2020	254	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	22/03/2020	291	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+COR	04/03/2020	0	https://www.corse.ars.sante.fr/covid-19-3-cas-confirmes-en-corse-au-centre-hospitalier-dajaccio	Le 5 mars ils annonçaient les 3 premiers cas, donc on n'en connaissait pas encore le 4 mars
+COR	05/03/2020	3	https://www.corse.ars.sante.fr/covid-19-3-cas-confirmes-en-corse-au-centre-hospitalier-dajaccio	aucune
+COR	09/03/2020	33	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	10/03/2020	42	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	11/03/2020	51	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	12/03/2020	64	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	13/03/2020	85	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	14/03/2020	106	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	15/03/2020	115	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	16/03/2020	126	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	17/03/2020	145	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	18/03/2020	152	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	19/03/2020	162	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	20/03/2020	168	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	21/03/2020	173	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	22/03/2020	183	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+67	26/02/2020	0	https://www.grand-est.ars.sante.fr/premier-cas-de-coronavirus-covid-19-valide-en-region-grand-est	Le 27 février l'ARS annonçait le premier cas dans le Grand-Est, ce qui signifie qu'aucun cas n'était connu jusqu'au 26 février
+68	26/02/2020	0	https://www.grand-est.ars.sante.fr/premier-cas-de-coronavirus-covid-19-valide-en-region-grand-est	Le 27 février l'ARS annonçait le premier cas dans le Grand-Est, ce qui signifie qu'aucun cas n'était connu jusqu'au 26 février
+54	26/02/2020	0	https://www.grand-est.ars.sante.fr/premier-cas-de-coronavirus-covid-19-valide-en-region-grand-est	Le 27 février l'ARS annonçait le premier cas dans le Grand-Est, ce qui signifie qu'aucun cas n'était connu jusqu'au 26 février
+51	26/02/2020	0	https://www.grand-est.ars.sante.fr/premier-cas-de-coronavirus-covid-19-valide-en-region-grand-est	Le 27 février l'ARS annonçait le premier cas dans le Grand-Est, ce qui signifie qu'aucun cas n'était connu jusqu'au 26 février
+88	26/02/2020	0	https://www.grand-est.ars.sante.fr/premier-cas-de-coronavirus-covid-19-valide-en-region-grand-est	Le 27 février l'ARS annonçait le premier cas dans le Grand-Est, ce qui signifie qu'aucun cas n'était connu jusqu'au 26 février
+10	26/02/2020	0	https://www.grand-est.ars.sante.fr/premier-cas-de-coronavirus-covid-19-valide-en-region-grand-est	Le 27 février l'ARS annonçait le premier cas dans le Grand-Est, ce qui signifie qu'aucun cas n'était connu jusqu'au 26 février
+52	26/02/2020	0	https://www.grand-est.ars.sante.fr/premier-cas-de-coronavirus-covid-19-valide-en-region-grand-est	Le 27 février l'ARS annonçait le premier cas dans le Grand-Est, ce qui signifie qu'aucun cas n'était connu jusqu'au 26 février
+08	26/02/2020	0	https://www.grand-est.ars.sante.fr/premier-cas-de-coronavirus-covid-19-valide-en-region-grand-est	Le 27 février l'ARS annonçait le premier cas dans le Grand-Est, ce qui signifie qu'aucun cas n'était connu jusqu'au 26 février
+55	26/02/2020	0	https://www.grand-est.ars.sante.fr/premier-cas-de-coronavirus-covid-19-valide-en-region-grand-est	Le 27 février l'ARS annonçait le premier cas dans le Grand-Est, ce qui signifie qu'aucun cas n'était connu jusqu'au 26 février
+67	27/02/2020	1	https://www.grand-est.ars.sante.fr/premier-cas-de-coronavirus-covid-19-valide-en-region-grand-est	aucune
+67	02/03/2020	2	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_7_cas_valides_GrandEst_020320.pdf	aucune
+68	02/03/2020	3	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_7_cas_valides_GrandEst_020320.pdf	aucune
+54	02/03/2020	2	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_7_cas_valides_GrandEst_020320.pdf	Famille originaire des Hauts-de-France, hospitalisée à Nancy
+67	04/03/2020	5	https://www.grand-est.ars.sante.fr/coronavirus-covid-19-en-grand-est-nouveau-point-de-situation-au-04032020	aucune
+68	04/03/2020	16	https://www.grand-est.ars.sante.fr/coronavirus-covid-19-en-grand-est-nouveau-point-de-situation-au-04032020	aucune
+51	04/03/2020	1	https://www.grand-est.ars.sante.fr/coronavirus-covid-19-en-grand-est-nouveau-point-de-situation-au-04032020	aucune
+88	04/03/2020	1	https://www.grand-est.ars.sante.fr/coronavirus-covid-19-en-grand-est-nouveau-point-de-situation-au-04032020	aucune
+68	06/03/2020	81	https://www.grand-est.ars.sante.fr/coronavirus-covid-19-point-de-situation-dans-le-haut-rhin	aucune
+51	08/03/2020	5	https://www.grand-est.ars.sante.fr/system/files/2020-03/Covid19_point_GrandEst080320.pdf	aucune
+10	08/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/Covid19_point_GrandEst080320.pdf	aucune
+52	08/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/Covid19_point_GrandEst080320.pdf	aucune
+08	08/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/Covid19_point_GrandEst080320.pdf	aucune
+55	08/03/2020	2	https://www.grand-est.ars.sante.fr/system/files/2020-03/Covid19_point_GrandEst080320.pdf	aucune
+54	08/03/2020	10	https://www.grand-est.ars.sante.fr/system/files/2020-03/Covid19_point_GrandEst080320.pdf	aucune
+57	08/03/2020	16	https://www.grand-est.ars.sante.fr/system/files/2020-03/Covid19_point_GrandEst080320.pdf	aucune
+88	08/03/2020	15	https://www.grand-est.ars.sante.fr/system/files/2020-03/Covid19_point_GrandEst080320.pdf	aucune
+67	08/03/2020	46	https://www.grand-est.ars.sante.fr/system/files/2020-03/Covid19_point_GrandEst080320.pdf	aucune
+68	08/03/2020	162	https://www.grand-est.ars.sante.fr/system/files/2020-03/Covid19_point_GrandEst080320.pdf	aucune
+51	09/03/2020	5	https://www.grand-est.ars.sante.fr/system/files/2020-03/CP_Coronavirus_covid%2019_GrandEst_090320.pdf	aucune
+10	09/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/CP_Coronavirus_covid%2019_GrandEst_090320.pdf	aucune
+52	09/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/CP_Coronavirus_covid%2019_GrandEst_090320.pdf	aucune
+08	09/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/CP_Coronavirus_covid%2019_GrandEst_090320.pdf	aucune
+55	09/03/2020	3	https://www.grand-est.ars.sante.fr/system/files/2020-03/CP_Coronavirus_covid%2019_GrandEst_090320.pdf	aucune
+54	09/03/2020	11	https://www.grand-est.ars.sante.fr/system/files/2020-03/CP_Coronavirus_covid%2019_GrandEst_090320.pdf	aucune
+57	09/03/2020	22	https://www.grand-est.ars.sante.fr/system/files/2020-03/CP_Coronavirus_covid%2019_GrandEst_090320.pdf	aucune
+88	09/03/2020	17	https://www.grand-est.ars.sante.fr/system/files/2020-03/CP_Coronavirus_covid%2019_GrandEst_090320.pdf	aucune
+67	09/03/2020	53	https://www.grand-est.ars.sante.fr/system/files/2020-03/CP_Coronavirus_covid%2019_GrandEst_090320.pdf	aucune
+68	09/03/2020	193	https://www.grand-est.ars.sante.fr/system/files/2020-03/CP_Coronavirus_covid%2019_GrandEst_090320.pdf	aucune
+51	10/03/2020	5	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_pointGrandEst100320.pdf	aucune
+10	10/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_pointGrandEst100320.pdf	aucune
+52	10/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_pointGrandEst100320.pdf	aucune
+08	10/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_pointGrandEst100320.pdf	aucune
+55	10/03/2020	3	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_pointGrandEst100320.pdf	aucune
+54	10/03/2020	11	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_pointGrandEst100320.pdf	aucune
+57	10/03/2020	47	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_pointGrandEst100320.pdf	aucune
+88	10/03/2020	28	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_pointGrandEst100320.pdf	aucune
+67	10/03/2020	104	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_pointGrandEst100320.pdf	aucune
+68	10/03/2020	260	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_pointGrandEst100320.pdf	aucune
+51	11/03/2020	7	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst_110320.pdf	aucune
+10	11/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst_110320.pdf	aucune
+52	11/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst_110320.pdf	aucune
+08	11/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst_110320.pdf	aucune
+55	11/03/2020	3	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst_110320.pdf	aucune
+54	11/03/2020	14	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst_110320.pdf	aucune
+57	11/03/2020	59	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst_110320.pdf	aucune
+88	11/03/2020	31	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst_110320.pdf	aucune
+67	11/03/2020	108	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst_110320.pdf	aucune
+68	11/03/2020	359	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst_110320.pdf	aucune
+67	12/03/2020	157	https://www.grand-est.ars.sante.fr/system/files/2020-03/CP_Coronavirus_Mesuresrenforc%C3%A9esBas-Rhin_130320.pdf	aucune
+51	13/03/2020	20	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2013.03.2020.pdf	aucune
+10	13/03/2020	1 	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2013.03.2020.pdf	aucune
+52	13/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2013.03.2020.pdf	aucune
+08	13/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2013.03.2020.pdf	aucune
+55	13/03/2020	6	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2013.03.2020.pdf	aucune
+54	13/03/2020	35	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2013.03.2020.pdf	aucune
+57	13/03/2020	114	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2013.03.2020.pdf	aucune
+88	13/03/2020	44	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2013.03.2020.pdf	aucune
+67	13/03/2020	219	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2013.03.2020.pdf	aucune
+68	13/03/2020	463	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2013.03.2020.pdf	aucune
+51	14/03/2020	21	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2014%2003%202020%20.pdf	aucune
+10	14/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2014%2003%202020%20.pdf	aucune
+52	14/03/2020	2	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2014%2003%202020%20.pdf	aucune
+08	14/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2014%2003%202020%20.pdf	aucune
+55	14/03/2020	6	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2014%2003%202020%20.pdf	aucune
+54	14/03/2020	38	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2014%2003%202020%20.pdf	aucune
+57	14/03/2020	122	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2014%2003%202020%20.pdf	aucune
+88	14/03/2020	44	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2014%2003%202020%20.pdf	aucune
+67	14/03/2020	239	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2014%2003%202020%20.pdf	aucune
+68	14/03/2020	494	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2014%2003%202020%20.pdf	aucune
+51	15/03/2020	22	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2015%2003%202020.pdf	aucune
+10	15/03/2020	7	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2015%2003%202020.pdf	aucune
+52	15/03/2020	3	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2015%2003%202020.pdf	aucune
+08	15/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2015%2003%202020.pdf	aucune
+55	15/03/2020	10	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2015%2003%202020.pdf	aucune
+54	15/03/2020	60	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2015%2003%202020.pdf	aucune
+57	15/03/2020	197	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2015%2003%202020.pdf	aucune
+88	15/03/2020	59	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2015%2003%202020.pdf	aucune
+67	15/03/2020	323	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2015%2003%202020.pdf	aucune
+68	15/03/2020	688	https://www.grand-est.ars.sante.fr/system/files/2020-03/Communique%20Coronavirus%20covid%2019%20-%20point%20de%20situation%20en%20Grand%20Est%2015%2003%202020.pdf	aucune
+51	16/03/2020	37	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst160320.pdf	aucune
+10	16/03/2020	12	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst160320.pdf	aucune
+52	16/03/2020	3	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst160320.pdf	aucune
+08	16/03/2020	1	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst160320.pdf	aucune
+55	16/03/2020	10	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst160320.pdf	aucune
+54	16/03/2020	66	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst160320.pdf	aucune
+57	16/03/2020	222	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst160320.pdf	aucune
+88	16/03/2020	61	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst160320.pdf	aucune
+67	16/03/2020	354	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst160320.pdf	aucune
+68	16/03/2020	688	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst160320.pdf	aucune
+51	17/03/2020	37	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst170320.pdf	aucune
+10	17/03/2020	14	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst170320.pdf	aucune
+52	17/03/2020	7	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst170320.pdf	aucune
+08	17/03/2020	3	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst170320.pdf	aucune
+55	17/03/2020	18	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst170320.pdf	aucune
+54	17/03/2020	85	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst170320.pdf	aucune
+57	17/03/2020	295	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst170320.pdf	aucune
+88	17/03/2020	66	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst170320.pdf	aucune
+67	17/03/2020	376	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst170320.pdf	aucune
+68	17/03/2020	700	https://www.grand-est.ars.sante.fr/system/files/2020-03/CPCoronavirus_GrandEst170320.pdf	aucune
+HDF	09/03/2020	192	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	10/03/2020	222	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	11/03/2020	263	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	12/03/2020	337	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	13/03/2020	368	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	14/03/2020	463	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	15/03/2020	525	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	16/03/2020	585	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	17/03/2020	612	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	18/03/2020	665	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	19/03/2020	700	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	20/03/2020	759	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	21/03/2020	791	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	22/03/2020	936	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+IDF	08/03/2020	243	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	09/03/2020	300	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	10/03/2020	440	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	11/03/2020	532	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	12/03/2020	626	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	13/03/2020	876	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	14/03/2020	949	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	15/03/2020	1209	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	16/03/2020	1762	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	17/03/2020	2177	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	18/03/2020	2693	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	19/03/2020	3384	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	20/03/2020	3818	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	21/03/2020	4695	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	22/03/2020	5283	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+27	27/02/2020	0	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie	Puisque le 1er cas normand a été identifié le 28 février
+50	27/02/2020	0	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie	Puisque le 1er cas normand a été identifié le 28 février
+14	27/02/2020	0	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie	Puisque le 1er cas normand a été identifié le 28 février
+76	27/02/2020	0	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie	Puisque le 1er cas normand a été identifié le 28 février
+61	27/02/2020	0	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie	Puisque le 1er cas normand a été identifié le 28 février
+76	28/02/2020	1	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie	Pas clair du tout : le 1er cas de Normandie a été identifié le vendredi 28 février, mais sans précision sur sa localisation (juste : c'est un « cas-contact » du 2ème patient, identifié le 2 mars, et qui est lui résident de l'Eure ; j'en suis réduit à supposer que le 1er patient, qui a été en contact avec lui, habite dans la Seine-maritime, où il est hospitalisé ; en tout cas il n'habite pas dans l'Eure, puisque le 7 mars on n'annonce qu'un malade dans l'Eure, sans décès entretemps pour ce département)
+27	02/03/2020	1	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie	aucune
+50	05/03/2020	3	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-0	aucune
+14	05/03/2020	1	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-0	aucune
+50	07/03/2020	6	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-dans-la-manche	aucune
+14	07/03/2020	1	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-regional-au-7-mars-2020	aucune
+76	07/03/2020	2	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-regional-au-7-mars-2020	aucune
+27	07/03/2020	1	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-regional-au-7-mars-2020	aucune
+50	08/03/2020	6	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-au-8-mars	aucune
+14	08/03/2020	2	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-au-8-mars	aucune
+76	08/03/2020	8	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-au-8-mars	aucune
+27	08/03/2020	6	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-au-8-mars	aucune
+50	09/03/2020	6	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-9-mars-2020	aucune
+14	09/03/2020	2	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-9-mars-2020	aucune
+76	09/03/2020	10	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-9-mars-2020	aucune
+27	09/03/2020	7	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-9-mars-2020	aucune
+50	10/03/2020	6	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-10-mars-2020	aucune
+14	10/03/2020	7	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-10-mars-2020	aucune
+76	10/03/2020	15	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-10-mars-2020	aucune
+27	10/03/2020	11	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-10-mars-2020	aucune
+61	11/03/2020	2	https://www.normandie.ars.sante.fr/coronavirus-covid-19-point-de-situation-dans-lorne-11-mars	aucune
+50	11/03/2020	10	https://www.normandie.ars.sante.fr/covid-19-point-de-situation-au-11-mars	aucune
+14	11/03/2020	15	https://www.normandie.ars.sante.fr/covid-19-point-de-situation-au-11-mars	aucune
+76	11/03/2020	16	https://www.normandie.ars.sante.fr/covid-19-point-de-situation-au-11-mars	aucune
+27	11/03/2020	14	https://www.normandie.ars.sante.fr/covid-19-point-de-situation-au-11-mars	aucune
+50	12/03/2020	10	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-12-mars-2020	aucune
+14	12/03/2020	20	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-12-mars-2020	aucune
+76	12/03/2020	19	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-12-mars-2020	aucune
+27	12/03/2020	17	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-12-mars-2020	aucune
+61	12/03/2020	2	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-12-mars-2020	aucune
+50	13/03/2020	20	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-13-mars-2020	aucune
+14	13/03/2020	32	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-13-mars-2020	aucune
+76	13/03/2020	21	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-13-mars-2020	aucune
+27	13/03/2020	22	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-13-mars-2020	aucune
+61	13/03/2020	2	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-13-mars-2020	aucune
+50	14/03/2020	27	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-14-mars-2020	aucune
+14	14/03/2020	50	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-14-mars-2020	aucune
+76	14/03/2020	23	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-14-mars-2020	aucune
+27	14/03/2020	25	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-14-mars-2020	aucune
+61	14/03/2020	2	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-14-mars-2020	aucune
+50	15/03/2020	28	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-15-mars-2020	aucune
+14	15/03/2020	57	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-15-mars-2020	aucune
+76	15/03/2020	30	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-15-mars-2020	aucune
+27	15/03/2020	25	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-15-mars-2020	aucune
+61	15/03/2020	3	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-15-mars-2020	aucune
+50	17/03/2020	32	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-18-mars-2020	En faisant la soustraction des nouveaux cas du 18 mars pour connaître les valeurs du 17 mars
+14	17/03/2020	66	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-18-mars-2020	En faisant la soustraction des nouveaux cas du 18 mars pour connaître les valeurs du 17 mars
+76	17/03/2020	39	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-18-mars-2020	En faisant la soustraction des nouveaux cas du 18 mars pour connaître les valeurs du 17 mars
+27	17/03/2020	29	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-18-mars-2020	En faisant la soustraction des nouveaux cas du 18 mars pour connaître les valeurs du 17 mars
+61	17/03/2020	8	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-18-mars-2020	En faisant la soustraction des nouveaux cas du 18 mars pour connaître les valeurs du 17 mars
+50	18/03/2020	42	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-18-mars-2020	aucune
+14	18/03/2020	71	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-18-mars-2020	aucune
+76	18/03/2020	57	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-18-mars-2020	aucune
+27	18/03/2020	29	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-18-mars-2020	aucune
+61	18/03/2020	9	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-18-mars-2020	aucune
+50	19/03/2020	44	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-19-mars-2020	aucune
+14	19/03/2020	76	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-19-mars-2020	aucune
+76	19/03/2020	77	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-19-mars-2020	aucune
+27	19/03/2020	35	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-19-mars-2020	aucune
+61	19/03/2020	9	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-19-mars-2020	aucune
+50	20/03/2020	47	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-20-mars-2020	aucune
+14	20/03/2020	85	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-20-mars-2020	aucune
+76	20/03/2020	109	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-20-mars-2020	aucune
+27	20/03/2020	36	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-20-mars-2020	aucune
+61	20/03/2020	10	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-20-mars-2020	aucune
+50	21/03/2020	63	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-au-21-mars	aucune
+14	21/03/2020	99	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-au-21-mars	aucune
+76	21/03/2020	128	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-au-21-mars	aucune
+27	21/03/2020	40	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-au-21-mars	aucune
+61	21/03/2020	15	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-au-21-mars	aucune
+50	22/03/2020	87	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-au-22-mars	aucune
+14	22/03/2020	129	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-au-22-mars	aucune
+76	22/03/2020	170	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-au-22-mars	aucune
+27	22/03/2020	53	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-au-22-mars	aucune
+61	22/03/2020	23	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-au-22-mars	aucune
+50	23/03/2020	97	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-au-23-mars	aucune
+14	23/03/2020	130	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-au-23-mars	aucune
+76	23/03/2020	195	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-au-23-mars	aucune
+27	23/03/2020	62	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-au-23-mars	aucune
+61	23/03/2020	27	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-au-23-mars	aucune
+33	24/01/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-08032020	Cas non mentionné dans les communiqués antérieurs à celui du 8 mars
+17	28/02/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-29022020	aucune
+33	28/02/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-29022020	aucune
+40	28/02/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-29022020	aucune
+17	03/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-03032020	aucune
+33	03/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-03032020	Nouveau cas, ajouté à celui du 24 janvier
+40	03/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-03032020	aucune
+64	04/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-04032020	aucune
+17	04/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-04032020	Un peu elliptique, mais vu qu'ils parlent du cas de ce patient sans en citer d'autre, ils ne devaient pas en connaître d'autre dans le département
+33	04/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-04032020	Un peu elliptique, mais vu qu'ils parlent du cas de ce patient sans en citer d'autre, ils ne devaient pas en connaître d'autre dans le département
+40	04/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-04032020	Un peu elliptique, mais vu qu'ils parlent du cas de ce patient sans en citer d'autre, ils ne devaient pas en connaître d'autre dans le département
+47	05/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-05032020	aucune
+79	05/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-05032020	aucune
+33	05/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-05032020	aucune
+40	05/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-05032020	aucune
+64	05/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-05032020	aucune
+16	06/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-06032020	aucune
+17	06/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-06032020	Ne mentionnent que le nouveau cas, mais il y avait un 1er cas, sorti d'hôpital (cf https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-04032020)
+24	06/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-06032020-17h	aucune
+17	07/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-07032020	En ajoutant des nouveaux cas aux cas précédemment décrits
+33	07/03/2020	3	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-07032020	En ajoutant des nouveaux cas aux cas précédemment décrits
+40	07/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-07032020	En ajoutant des nouveaux cas aux cas précédemment décrits
+64	07/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-07032020	En ajoutant des nouveaux cas aux cas précédemment décrits
+47	07/03/2020	5	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-07032020	En ajoutant des nouveaux cas aux cas précédemment décrits
+79	07/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-07032020	En ajoutant des nouveaux cas aux cas précédemment décrits
+16	07/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-07032020	En ajoutant des nouveaux cas aux cas précédemment décrits
+24	07/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-07032020	En ajoutant des nouveaux cas aux cas précédemment décrits
+33	08/03/2020	4	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-08032020	aucune
+17	08/03/2020	7	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-08032020	aucune
+40	08/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-08032020	aucune
+64	08/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-08032020	aucune
+47	08/03/2020	10	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-08032020	aucune
+79	08/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-08032020	aucune
+16	08/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-08032020	aucune
+24	08/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-08032020	aucune
+19	08/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-08032020	aucune
+86	08/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-08032020	aucune
+33	09/03/2020	4	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020	Pas de nouveau cas pour ce département
+17	09/03/2020	7	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020	Pas de nouveau cas pour ce département
+40	09/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020	Pas de nouveau cas pour ce département
+64	09/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020	Pas de nouveau cas pour ce département
+47	09/03/2020	15	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020	Ajout des nouveaux cas aux cas déjà décrits
+79	09/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020	Pas de nouveau cas pour ce département
+16	09/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020	Pas de nouveau cas pour ce département
+24	09/03/2020	3	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020	Ajout des nouveaux cas aux cas déjà décrits
+19	09/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020	Ajout des nouveaux cas aux cas déjà décrits
+86	09/03/2020	3	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020	Ajout des nouveaux cas aux cas déjà décrits
+33	10/03/2020	5	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-10032020	Total régional de 54 cas, incohérent avec les 55 annoncés par l'ARS (peut-être un problème dû au double comptage des 8-9 mars : https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020 ?)
+17	10/03/2020	13	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-10032020	Total régional de 54 cas, incohérent avec les 55 annoncés par l'ARS (peut-être un problème dû au double comptage des 8-9 mars : https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020 ?)
+40	10/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-10032020	Total régional de 54 cas, incohérent avec les 55 annoncés par l'ARS (peut-être un problème dû au double comptage des 8-9 mars : https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020 ?)
+64	10/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-10032020	Total régional de 54 cas, incohérent avec les 55 annoncés par l'ARS (peut-être un problème dû au double comptage des 8-9 mars : https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020 ?)
+47	10/03/2020	22	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-10032020	Total régional de 54 cas, incohérent avec les 55 annoncés par l'ARS (peut-être un problème dû au double comptage des 8-9 mars : https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020 ?)
+79	10/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-10032020	Total régional de 54 cas, incohérent avec les 55 annoncés par l'ARS (peut-être un problème dû au double comptage des 8-9 mars : https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020 ?)
+16	10/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-10032020	Total régional de 54 cas, incohérent avec les 55 annoncés par l'ARS (peut-être un problème dû au double comptage des 8-9 mars : https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020 ?)
+24	10/03/2020	3	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-10032020	Total régional de 54 cas, incohérent avec les 55 annoncés par l'ARS (peut-être un problème dû au double comptage des 8-9 mars : https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020 ?)
+19	10/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-10032020	Total régional de 54 cas, incohérent avec les 55 annoncés par l'ARS (peut-être un problème dû au double comptage des 8-9 mars : https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020 ?)
+86	10/03/2020	4	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-10032020	Total régional de 54 cas, incohérent avec les 55 annoncés par l'ARS (peut-être un problème dû au double comptage des 8-9 mars : https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-09032020 ?)
+33	11/03/2020	7	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-11032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+17	11/03/2020	20	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-11032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+40	11/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-11032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+64	11/03/2020	3	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-11032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+47	11/03/2020	23	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-11032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+79	11/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-11032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+16	11/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-11032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+24	11/03/2020	3	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-11032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+19	11/03/2020	4	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-11032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+86	11/03/2020	6	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-11032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+87	11/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-11032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+33	12/03/2020	9	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-12032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+17	12/03/2020	20	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-12032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+40	12/03/2020	3	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-12032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+64	12/03/2020	9	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-12032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+47	12/03/2020	25	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-12032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+79	12/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-12032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+16	12/03/2020	3	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-12032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+24	12/03/2020	5	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-12032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+19	12/03/2020	5	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-12032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+86	12/03/2020	6	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-12032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+87	12/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-12032020	Incohérence sur le total régional (peut-être un problème dû au double comptage des 8-9 mars)
+33	13/03/2020	14	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-13032020	Incohérence entre le nombre de nouveaux cas et le nombre cumulé
+17	13/03/2020	23	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-13032020	aucune
+40	13/03/2020	3	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-13032020	aucune
+64	13/03/2020	9	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-13032020	Incohérence entre le nombre de nouveaux cas et le nombre cumulé
+47	13/03/2020	33	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-13032020	Incohérence entre le nombre de nouveaux cas et le nombre cumulé
+79	13/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-13032020	aucune
+16	13/03/2020	4	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-13032020	aucune
+24	13/03/2020	5	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-13032020	aucune
+19	13/03/2020	5	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-13032020	aucune
+86	13/03/2020	6	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-13032020	aucune
+87	13/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-13032020	aucune
+23	13/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-13032020	aucune
+33	14/03/2020	18	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-14032020	L'incohérence des jours précédents s'est corrigée par une nouvelle incohérence avec le nombre de nouveaux cas, qui la compense exactement
+17	14/03/2020	25	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-14032020	aucune
+40	14/03/2020	3	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-14032020	aucune
+64	14/03/2020	13	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-14032020	Incohérence entre le nombre de nouveaux cas et le cumul
+47	14/03/2020	38	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-14032020	Incohérence entre le nombre de nouveaux cas et le cumul
+79	14/03/2020	3	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-14032020	aucune
+16	14/03/2020	4	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-14032020	aucune
+24	14/03/2020	7	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-14032020	aucune
+19	14/03/2020	5	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-14032020	aucune
+86	14/03/2020	9	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-14032020	Incohérence entre le nombre de nouveaux cas et le cumul
+87	14/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-14032020	aucune
+23	14/03/2020	1	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-14032020	aucune
+16	15/03/2020	4	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-15032020	aucune
+17	15/03/2020	25	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-15032020	aucune
+19	15/03/2020	5	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-15032020	aucune
+23	15/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-15032020	aucune
+24	15/03/2020	7	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-15032020	aucune
+33	15/03/2020	19	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-15032020	aucune
+40	15/03/2020	4	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-15032020	aucune
+47	15/03/2020	41	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-15032020	aucune
+64	15/03/2020	18	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-15032020	aucune
+79	15/03/2020	3	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-15032020	aucune
+86	15/03/2020	10	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-15032020	aucune
+87	15/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-15032020	aucune
+16	16/03/2020	4	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-16032020-1	aucune
+17	16/03/2020	27	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-16032020-1	aucune
+19	16/03/2020	5	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-16032020-1	aucune
+23	16/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-16032020-1	aucune
+24	16/03/2020	7	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-16032020-1	aucune
+33	16/03/2020	24	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-16032020-1	aucune
+40	16/03/2020	5	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-16032020-1	aucune
+47	16/03/2020	44	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-16032020-1	aucune
+64	16/03/2020	18	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-16032020-1	aucune
+79	16/03/2020	4	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-16032020-1	aucune
+86	16/03/2020	14	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-16032020-1	aucune
+87	16/03/2020	2	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-16032020-1	aucune
+16	17/03/2020	4	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-18032020	aucune
+17	17/03/2020	32	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-18032020	aucune
+19	17/03/2020	7	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-18032020	aucune
+23	17/03/2020	4	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-18032020	aucune
+24	17/03/2020	7	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-18032020	aucune
+33	17/03/2020	42	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-18032020	aucune
+40	17/03/2020	10	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-18032020	aucune
+47	17/03/2020	53	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-18032020	aucune
+64	17/03/2020	21	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-18032020	aucune
+79	17/03/2020	6	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-18032020	aucune
+86	17/03/2020	25	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-18032020	aucune
+87	17/03/2020	4	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-18032020	aucune
+16	18/03/2020	5	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-19032020	aucune
+17	18/03/2020	33	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-19032020	aucune
+19	18/03/2020	12	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-19032020	aucune
+23	18/03/2020	5	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-19032020	aucune
+24	18/03/2020	7	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-19032020	aucune
+33	18/03/2020	54	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-19032020	aucune
+40	18/03/2020	14	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-19032020	aucune
+47	18/03/2020	59	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-19032020	aucune
+64	18/03/2020	27	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-19032020	aucune
+79	18/03/2020	7	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-19032020	aucune
+86	18/03/2020	33	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-19032020	aucune
+87	18/03/2020	8	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-19032020	aucune
+16	19/03/2020	6	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-20032020	aucune
+17	19/03/2020	38	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-20032020	aucune
+19	19/03/2020	15	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-20032020	aucune
+23	19/03/2020	9	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-20032020	aucune
+24	19/03/2020	8	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-20032020	aucune
+33	19/03/2020	63	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-20032020	aucune
+40	19/03/2020	15	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-20032020	aucune
+47	19/03/2020	63	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-20032020	aucune
+64	19/03/2020	32	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-20032020	aucune
+79	19/03/2020	8	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-20032020	aucune
+86	19/03/2020	34	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-20032020	aucune
+87	19/03/2020	12	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-20032020	aucune
+16	20/03/2020	7	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-21032020	aucune
+17	20/03/2020	42	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-21032020	aucune
+19	20/03/2020	18	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-21032020	aucune
+23	20/03/2020	12	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-21032020	aucune
+24	20/03/2020	10	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-21032020	aucune
+33	20/03/2020	73	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-21032020	aucune
+40	20/03/2020	18	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-21032020	aucune
+47	20/03/2020	64	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-21032020	aucune
+64	20/03/2020	40	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-21032020	aucune
+79	20/03/2020	10	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-21032020	aucune
+86	20/03/2020	48	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-21032020	aucune
+87	20/03/2020	15	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-21032020	aucune
+16	21/03/2020	10	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-22032020	aucune
+17	21/03/2020	49	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-22032020	aucune
+19	21/03/2020	23	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-22032020	aucune
+23	21/03/2020	12	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-22032020	aucune
+24	21/03/2020	13	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-22032020	aucune
+33	21/03/2020	106	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-22032020	aucune
+40	21/03/2020	20	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-22032020	aucune
+47	21/03/2020	65	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-22032020	aucune
+64	21/03/2020	41	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-22032020	aucune
+79	21/03/2020	11	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-22032020	aucune
+86	21/03/2020	53	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-22032020	aucune
+87	21/03/2020	21	https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aquitaine-du-22032020	aucune
+OCC	26/02/2020	0	https://www.occitanie.ars.sante.fr/coronavirus-prise-en-charge-dun-premier-cas-confirme-en-occitanie-montpellier	Premier cas régional découvert le lendemain
+OCC	27/02/2020	1	https://www.occitanie.ars.sante.fr/coronavirus-prise-en-charge-dun-premier-cas-confirme-en-occitanie-montpellier	aucune
+OCC	28/02/2020	3	https://www.occitanie.ars.sante.fr/coronavirus-2-nouveaux-cas-confirmes-montpellier	aucune
+OCC	01/03/2020	5	https://www.occitanie.ars.sante.fr/coronavirus-confirmation-de-2-nouveaux-cas-montpellier	aucune
+OCC	02/03/2020	6	https://www.occitanie.ars.sante.fr/coronavirus-confirmation-dun-nouveau-cas-montpellier	aucune
+OCC	03/03/2020	8	https://www.occitanie.ars.sante.fr/coronavirus-un-second-cas-confirme-dans-le-gard-et-un-patient-gueri-sorti-de-lhopital-montpellier	Deux cas gardois annoncés dans la journée (1er cas : https://www.occitanie.ars.sante.fr/coronavirus-confirmation-dun-premier-cas-dans-le-gard)
+OCC	04/03/2020	10	https://www.occitanie.ars.sante.fr/coronavirus-confirmation-de-deux-premiers-cas-en-aveyron	aucune
+OCC	05/03/2020	14	https://www.occitanie.ars.sante.fr/coronavirus-1-premier-cas-confirme-en-haute-garonne-2-nouveaux-cas-confirmes-en-aveyron-et-1	12 patients traités en Occitanie, mais 2 cas montpelliérains sont domiciliés dans les Hauts-de-France (suivant les conventions habituelles des ARS, ils seront donc comptabilisés dans les Hauts-de-France ; https://www.occitanie.ars.sante.fr/coronavirus-confirmation-de-deux-nouveaux-cas-montpellier)
+OCC	06/03/2020	24	https://www.occitanie.ars.sante.fr/coronavirus-2-premiers-cas-confirmes-dans-le-tarn-1-nouveau-cas-dans-le-gard-2-dans-lherault-et-1 Après soustraction des 2 cas de patients domiciliés hors-Occitanie
+OCC	07/03/2020	36	https://www.occitanie.ars.sante.fr/coronavirus-point-de-situation-en-occitanie-7-mars-22-h-30	aucune
+OCC	08/03/2020	47	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	09/03/2020	60	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	10/03/2020	90	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	11/03/2020	118	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	12/03/2020	150	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	13/03/2020	175	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	14/03/2020	210	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	15/03/2020	254	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	16/03/2020	284	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	17/03/2020	311	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	18/03/2020	371	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	19/03/2020	444	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	20/03/2020	537	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	21/03/2020	611	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	22/03/2020	671	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+OCC	23/03/2020	767	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-occitanie	aucune
+06	28/02/2020	1	https://www.paca.ars.sante.fr/coronavirus-prise-en-charge-dun-premier-cas-en-provence-alpes-cote-dazur	Pas très clair sur sa domiciliation, mais la patiente s'est rendue d'elle-même à un dépistage à Nice, donc je vais considérer qu'elle est domiciliée dans les Alpes-maritimes
+13	03/03/2020	1	https://www.paca.ars.sante.fr/coronavirus-prise-en-charge-dun-premier-cas-dans-les-bouches-du-rhone	aucune
+06	04/03/2020	10	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation	aucune
+13	04/03/2020	7	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation	aucune
+84	04/03/2020	0	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation	Selon les conventions des communiqués des ARS, le patient qui a transité par le Vaucluse et qui a été traité à Marseille est comptabilisé dans son département de résidence (la Drôme)
+05	05/03/2020	3	https://www.paca.ars.sante.fr/coronavirus-prise-en-charge-de-trois-premiers-cas-dans-les-hautes-alpes	aucune
+83	05/03/2020	1	https://www.paca.ars.sante.fr/coronavirus-prise-en-charge-dun-premier-cas-dans-le-var	aucune
+06	05/03/2020	14	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-0	aucune
+13	05/03/2020	7	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-0	aucune
+84	05/03/2020	1	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-0	Puisque cette personne est annoncée hospitalisée à Avignon, il doit s'agir d'une autre personne que le patient domicilié dans la Drôme
+06	06/03/2020	17	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-6-mars	aucune
+13	06/03/2020	7	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-6-mars	aucune
+05	06/03/2020	5	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-6-mars	aucune
+83	06/03/2020	1	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-6-mars	aucune
+84	06/03/2020	1	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-6-mars	aucune
+06	07/03/2020	17	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-7-mars	aucune
+13	07/03/2020	10	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-7-mars	aucune
+05	07/03/2020	6	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-7-mars	aucune
+83	07/03/2020	2	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-7-mars	aucune
+84	07/03/2020	2	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-7-mars	aucune
+06	08/03/2020	21	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-8-mars	aucune
+13	08/03/2020	15	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-8-mars	aucune
+05	08/03/2020	8	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-8-mars	aucune
+83	08/03/2020	5	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-8-mars	aucune
+84	08/03/2020	3	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-8-mars	aucune
+04	09/03/2020	1	https://www.paca.ars.sante.fr/coronavirus-prise-en-charge-dun-premier-cas-dans-les-alpes-de-haute-provence	aucune
+06	09/03/2020	22	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-9-mars	aucune
+13	09/03/2020	25	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-9-mars	aucune
+05	09/03/2020	12	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-9-mars	aucune
+83	09/03/2020	9	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-9-mars	aucune
+84	09/03/2020	3	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-9-mars	aucune
+04	10/03/2020	2	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-10-mars	aucune
+05	10/03/2020	14	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-10-mars	aucune
+06	10/03/2020	23	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-10-mars	aucune
+13	10/03/2020	37	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-10-mars	aucune
+83	10/03/2020	11	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-10-mars	aucune
+84	10/03/2020	3	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-10-mars	aucune
+04	11/03/2020	3	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-11-mars	aucune
+05	11/03/2020	14	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-11-mars	aucune
+06	11/03/2020	32	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-11-mars	aucune
+13	11/03/2020	46	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-11-mars	aucune
+83	11/03/2020	13	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-11-mars	aucune
+84	11/03/2020	4	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-11-mars	aucune
+04	12/03/2020	4	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-12-mars	aucune
+05	12/03/2020	15	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-12-mars	aucune
+06	12/03/2020	39	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-12-mars	aucune
+13	12/03/2020	67	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-12-mars	aucune
+83	12/03/2020	22	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-12-mars	aucune
+84	12/03/2020	4	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-du-12-mars	aucune
+04	13/03/2020	4	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-13-mars	aucune
+05	13/03/2020	18	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-13-mars	aucune
+06	13/03/2020	43	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-13-mars	aucune
+13	13/03/2020	93	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-13-mars	aucune
+83	13/03/2020	48	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-13-mars	aucune
+84	13/03/2020	5	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-13-mars	aucune
+04	17/03/2020	7	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-17-mars	aucune
+05	17/03/2020	25	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-17-mars	aucune
+06	17/03/2020	104	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-17-mars	aucune
+13	17/03/2020	237	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-17-mars	aucune
+83	17/03/2020	95	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-17-mars	aucune
+84	17/03/2020	13	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-17-mars	aucune
+04	18/03/2020	7	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-18-mars	aucune
+05	18/03/2020	32	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-18-mars	aucune
+06	18/03/2020	110	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-18-mars	aucune
+13	18/03/2020	303	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-18-mars	aucune
+83	18/03/2020	103	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-18-mars	aucune
+84	18/03/2020	15	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-18-mars	aucune
+04	19/03/2020	8	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-19-mars	aucune
+05	19/03/2020	31	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-19-mars	aucune
+06	19/03/2020	133	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-19-mars	aucune
+13	19/03/2020	377	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-19-mars	aucune
+83	19/03/2020	124	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-19-mars	aucune
+84	19/03/2020	17	https://www.paca.ars.sante.fr/coronavirus-en-provence-alpes-cote-dazur-point-de-situation-au-19-mars	aucune
+04	20/03/2020	15	https://www.paca.ars.sante.fr/coronavirus-en-paca-point-de-situation-du-20-mars-2020	aucune
+05	20/03/2020	34	https://www.paca.ars.sante.fr/coronavirus-en-paca-point-de-situation-du-20-mars-2020	aucune
+06	20/03/2020	142	https://www.paca.ars.sante.fr/coronavirus-en-paca-point-de-situation-du-20-mars-2020	aucune
+13	20/03/2020	408	https://www.paca.ars.sante.fr/coronavirus-en-paca-point-de-situation-du-20-mars-2020	aucune
+83	20/03/2020	132	https://www.paca.ars.sante.fr/coronavirus-en-paca-point-de-situation-du-20-mars-2020	aucune
+84	20/03/2020	24	https://www.paca.ars.sante.fr/coronavirus-en-paca-point-de-situation-du-20-mars-2020	aucune
+04	21/03/2020	17	https://www.paca.ars.sante.fr/coronavirus-point-de-situation-du-21-mars-2020	aucune
+05	21/03/2020	35	https://www.paca.ars.sante.fr/coronavirus-point-de-situation-du-21-mars-2020	aucune
+06	21/03/2020	174	https://www.paca.ars.sante.fr/coronavirus-point-de-situation-du-21-mars-2020	aucune
+13	21/03/2020	572	https://www.paca.ars.sante.fr/coronavirus-point-de-situation-du-21-mars-2020	aucune
+83	21/03/2020	159	https://www.paca.ars.sante.fr/coronavirus-point-de-situation-du-21-mars-2020	aucune
+84	21/03/2020	32	https://www.paca.ars.sante.fr/coronavirus-point-de-situation-du-21-mars-2020	aucune
+04	22/03/2020	22	https://www.paca.ars.sante.fr/coronavirus-point-de-situation-du-22-mars-2020-0	aucune
+05	22/03/2020	42	https://www.paca.ars.sante.fr/coronavirus-point-de-situation-du-22-mars-2020-0	aucune
+06	22/03/2020	194	https://www.paca.ars.sante.fr/coronavirus-point-de-situation-du-22-mars-2020-0	aucune
+13	22/03/2020	827	https://www.paca.ars.sante.fr/coronavirus-point-de-situation-du-22-mars-2020-0	aucune
+83	22/03/2020	86	https://www.paca.ars.sante.fr/coronavirus-point-de-situation-du-22-mars-2020-0	aucune
+84	22/03/2020	45	https://www.paca.ars.sante.fr/coronavirus-point-de-situation-du-22-mars-2020-0	aucune
+PDL	28/02/2020	4	https://www.pays-de-la-loire.ars.sante.fr/coronavirus-en-pays-de-la-loire-trois-nouveaux-cas-confirmes	Région de domiciliation de la 1ère patiente laissée ambiguë (https://www.pays-de-la-loire.ars.sante.fr/coronavirus-en-pays-de-la-loire-un-cas-confirme) ; dans le doute je considère qu'elle habite dans la région.
+PDL	01/03/2020	5	https://www.pays-de-la-loire.ars.sante.fr/coronavirus-en-pays-de-la-loire-un-nouveau-cas-confirme	aucune
+PDL	08/03/2020	47	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	09/03/2020	60	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	10/03/2020	90	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	11/03/2020	118	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	12/03/2020	150	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	13/03/2020	175	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	14/03/2020	210	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	15/03/2020	254	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	16/03/2020	284	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	17/03/2020	311	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	18/03/2020	371	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	19/03/2020	444	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	20/03/2020	537	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	21/03/2020	611	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	22/03/2020	671	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+PDL	23/03/2020	767	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-pays-de-la-loire	aucune
+01	23/03/2020	116	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-23-mars-2020	aucune
+03	23/03/2020	32	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-23-mars-2020	aucune
+07	23/03/2020	67	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-23-mars-2020	aucune
+15	23/03/2020	27	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-23-mars-2020	aucune
+26	23/03/2020	112	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-23-mars-2020	aucune
+43	23/03/2020	15	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-23-mars-2020	aucune
+38	23/03/2020	155	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-23-mars-2020	aucune
+42	23/03/2020	267	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-23-mars-2020	aucune
+63	23/03/2020	66	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-23-mars-2020	aucune
+69	23/03/2020	491	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-23-mars-2020	aucune
+73	23/03/2020	102	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-23-mars-2020	aucune
+74	23/03/2020	272	https://www.auvergne-rhone-alpes.ars.sante.fr/covid-19-en-auvergne-rhone-alpes-point-de-situation-lundi-23-mars-2020	aucune
+BFC	23/03/2020	1347	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-bourgogne-fc	aucune
+BFC	24/03/2020	1510	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-bourgogne-fc	aucune
+56	22/03/2020	174	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-dimanche-22-mars-2020-et-mesures-destinees-freiner-la	aucune
+29	22/03/2020	99	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-dimanche-22-mars-2020-et-mesures-destinees-freiner-la	aucune
+35	22/03/2020	91	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-dimanche-22-mars-2020-et-mesures-destinees-freiner-la	aucune
+22	22/03/2020	33	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-du-dimanche-22-mars-2020-et-mesures-destinees-freiner-la	aucune
+56	23/03/2020	181	https://www.bretagne.ars.sante.fr/coronavirus-point-de-situation-sanitaire-du-lundi-23-mars-2020-et-mesures-destinees-freiner-la	aucune
+29	23/03/2020	112	https://www.bretagne.ars.sante.fr/coronavirus-point-de-situation-sanitaire-du-lundi-23-mars-2020-et-mesures-destinees-freiner-la	aucune
+35	23/03/2020	105	https://www.bretagne.ars.sante.fr/coronavirus-point-de-situation-sanitaire-du-lundi-23-mars-2020-et-mesures-destinees-freiner-la	aucune
+22	23/03/2020	36	https://www.bretagne.ars.sante.fr/coronavirus-point-de-situation-sanitaire-du-lundi-23-mars-2020-et-mesures-destinees-freiner-la	aucune
+56	24/03/2020	185	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-du-mardi-24-mars-2020-et-mesures-destinees	aucune
+29	24/03/2020	127	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-du-mardi-24-mars-2020-et-mesures-destinees	aucune
+35	24/03/2020	115	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-du-mardi-24-mars-2020-et-mesures-destinees	aucune
+22	24/03/2020	38	https://www.bretagne.ars.sante.fr/coronavirus-en-bretagne-point-de-situation-sanitaire-du-mardi-24-mars-2020-et-mesures-destinees	aucune
+CVL	23/03/2020	361	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+CVL	24/03/2020	450	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-centre-val-loire	aucune
+COR	23/03/2020	194	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+COR	24/03/2020	217	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-corse	aucune
+HDF	23/03/2020	1269	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+HDF	24/03/2020	1532	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-haut-france	aucune
+IDF	23/03/2020	6211	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+IDF	24/03/2020	6798	https://www.eficiens.com/nombre-de-cas-coronavirus-par-region/#reg-ile-france	aucune
+14	24/03/2020	147	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-24-mars-2020	aucune
+76	24/03/2020	233	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-24-mars-2020	aucune
+27	24/03/2020	71	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-24-mars-2020	aucune
+61	24/03/2020	28	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-24-mars-2020	aucune
+50	24/03/2020	107	https://www.normandie.ars.sante.fr/coronavirus-point-de-situation-en-normandie-24-mars-2020	aucune
