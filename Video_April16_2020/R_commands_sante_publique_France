@@ -1,0 +1,24 @@
+data=read.csv('sursaud-covid19-quotidien-2020-04-16-10h47-departement.csv',header=T)
+attach(data)
+
+x=as.Date(unique(date_de_passage))
+dept_list=c(75,13,69,31,6,44,34,67)
+dept_name=c('Paris (75)','Bouches-du-Rhône (13)','Rhône (69)','Haute-Garonne (31)','Alpes-maritimes (06)','Loire-atlantique (44)','Hérault (34)','Bas-Rhin (67)')
+pdf('Evolution_par_departement_top_8_villes.pdf',width=10,height=10)
+par(mfrow=c(2,4))
+for (index in 1:length(dept_list))
+{
+dept=dept_list[index]
+y=c();for (date in x) y=append(y,sum(nbre_hospit_corona[as.numeric(dep)==dept & as.Date(date_de_passage)==date]))
+plot(x,y,xlab='Date',ylab='Hospitalisations urgences pour soupçon de Covid19',ty='l',main=dept_name[index],axes=F)
+axis.Date(1, at=seq(min(x), max(x)+1, by="10 day"), format="%d/%m")
+axis(2)
+}
+dev.off()
+pdf('Evolution_France.pdf',width=8,height=8)
+par(mfrow=c(1,1))
+y=c();for (date in x) y=append(y,sum(nbre_hospit_corona[as.Date(date_de_passage)==date],na.rm=T))
+plot(x,y,xlab='Date',ylab='Hospitalisations urgences pour soupçon de Covid19',ty='l',main='France entière',axes=F)
+axis.Date(1, at=seq(min(x), max(x)+1, by="10 day"), format="%d/%m")
+axis(2)
+dev.off()
