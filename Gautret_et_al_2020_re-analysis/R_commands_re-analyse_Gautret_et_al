@@ -1,0 +1,24 @@
+data=read.table('Gautret_et_al_data.dat',header=T)
+digital=c()
+for (day in 0:6)
+{
+add=c()
+for (i in 1:length(data[,4+day]))
+if (is.na(data[,4+day][i]))
+{
+add=append(add,NA)
+} else
+if (data[,4+day][i]=='NEG')
+{
+add=append(add,0)
+} else add=append(add,1)
+digital=cbind(digital,add)
+}
+
+for (day in c(1,4)) # Days of analysis as announced in clinical trial application (https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000890-25/FR)
+{
+traites=digital[,1+day][data$HCQ=='Yes']
+non_traites=digital[,1+day][data$HCQ=='No']
+print(paste('Day=',day," p-value (Fisher's exact test):",sep=''))
+print(fisher.test(array(c(length(traites[!is.na(traites) & traites==1]),length(traites[!is.na(traites) & traites==0]),length(non_traites[!is.na(non_traites) & non_traites==1]),length(non_traites[!is.na(non_traites) & non_traites==0])),dim=c(2,2)))$p.value)
+}
