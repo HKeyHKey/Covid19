@@ -1,0 +1,58 @@
+data=read.csv('Donnees_hospitalieres_au_28122020.csv',sep=';')
+start1='2020-03-18'
+end1='2020-05-31'
+start2='2020-10-15'
+end2='2020-12-28'
+
+x_range=c(0.5,2.5)
+y_range=c(0,50)
+
+wave1=subset(data,as.Date(data$jour)>=as.Date(start1) & as.Date(data$jour)<=as.Date(end1))
+wave2=subset(data,as.Date(data$jour)>=as.Date(start2) & as.Date(data$jour)<=as.Date(end2))
+
+time_defined_lethality <- function(wave)
+{
+dept_list=c()
+rad_list=c()
+dc_list=c()
+for (dept in unique(wave$dep))
+{
+rad=wave$rad[wave$dep==dept & wave$sexe==0 & as.Date(wave$jour)==max(as.Date(wave$jour))]-wave$rad[wave$dep==dept & wave$sexe==0 & as.Date(wave$jour)==min(as.Date(wave$jour))]
+dc=wave$dc[wave$dep==dept & wave$sexe==0 & as.Date(wave$jour)==max(as.Date(wave$jour))]-wave$dc[wave$dep==dept & wave$sexe==0 & as.Date(wave$jour)==min(as.Date(wave$jour))]
+dept_list=append(dept_list,dept)
+rad_list=append(rad_list,rad)
+dc_list=append(dc_list,dc)
+}
+pval=c()
+for (dept in unique(wave$dep))
+{
+if (dept!=13)
+{
+pval=append(pval,fisher.test(array(c(dc_list[dept_list==dept],rad_list[dept_list==dept],dc_list[dept_list==13],rad_list[dept_list==13]),dim=c(2,2)))$p.value)
+} else pval=append(pval,NA)
+}
+list(100*dc_list/(dc_list+rad_list),100*(dc_list/(dc_list+rad_list))[dept_list==as.character(13)],pval)
+}
+
+out1=time_defined_lethality(wave1)
+out2=time_defined_lethality(wave2)
+pdf('Mortalite_hospitaliere_par_departement.pdf',width=6,height=6)
+boxplot(out1[[1]],out2[[1]],xlab='Vague épidémique',ylab='% de mortalité Covid-19 en hôpital',axes=F)
+points(1,out1[[2]],col='red',pch=20,cex=1.5)
+points(2,out2[[2]],col='red',pch=20,cex=1.5)
+axis(1,labels=c(paste(start1,'/',end1,sep=''),paste(start2,'/',end2,sep='')),at=c(1,2))
+axis(2)
+dev.off()
+sink('Departements_mortalite_moindre_que_dept_13.txt')
+print('Première vague :')
+print(length(out1[[1]][out1[[1]]<out1[[2]]]))
+print('Deuxième vague :')
+length(out2[[1]][out2[[1]]<out2[[2]]])
+sink()
+out=list(unique(wave1$dep),out1[[3]])
+names(out)=c('Département','p-value')
+write.csv(as.data.frame(out),'Significativite_premier_pic.csv')
+out=list(unique(wave2$dep),out2[[3]])
+names(out)=c('Département','p-value')
+write.csv(as.data.frame(out),'Significativite_deuxieme_pic.csv')
+
