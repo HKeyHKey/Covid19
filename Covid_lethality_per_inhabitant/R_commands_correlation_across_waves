@@ -1,0 +1,23 @@
+args = commandArgs(trailingOnly=TRUE)
+wave_starts=c('2020-03-18','2020-10-20')
+wave_ends=c('2020-06-20','2021-01-08')
+data=read.csv(args[1],sep=';')
+populations_dep=read.csv2('Departements.csv',sep=';')
+sex=0
+compar=c()
+for (dep in unique(data$dep))
+{
+add=c()
+for (wave in 1:2)
+{
+dc=data$dc[data$sexe==sex & data$dep==dep & as.Date(data$jour,"%Y-%m-%d")>=as.Date(wave_starts[wave]) & as.Date(data$jour,"%Y-%m-%d")<=as.Date(wave_ends[wave])]
+add=append(add,(dc[length(dc)]-dc[1])/populations_dep$PTOT[populations_dep$CODDEP==dep]*1e5)
+}
+compar=rbind(compar,add)
+}
+corr=cor.test(compar[,1],compar[,2],method='kendall')
+corr_coef=signif(corr$estimate,digits=3)
+corr_pval=signif(corr$p.value,digits=3)
+pdf('Correlation_across_waves.pdf',width=8,height=8)
+plot(compar[,1],compar[,2],xlab='Mortalité Covid sur la 1ère vague (décès par 100 000 hab.)',ylab='Mortalité Covid sur la 2ème vague (décès par 100 000 hab.)',main=paste("Coeff. de corrélation (Kendall's tau) : ",corr_coef,"\n(p-value=",corr_pval,")",sep=""))
+dev.off()
