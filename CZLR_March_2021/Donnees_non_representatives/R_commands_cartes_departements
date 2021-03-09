@@ -1,0 +1,67 @@
+args = commandArgs(trailingOnly=TRUE)
+
+wave_starts=c('2020-03-18','2020-10-20')
+wave_ends=c('2020-06-20','2021-01-08')
+
+library(rgdal)
+departements=rgdal::readOGR('/home/herve/Covid-19/Epidemiologie/Contours/departements-20140306-100m.shp')
+populations_dep=read.csv2('/home/herve/Covid-19/Epidemiologie/Data_from_Sante_publique_France/Departements.csv',sep=';')
+### Below: defines color scales
+COLOR_SLICES=500
+my_palette <- colorRampPalette(c("white","yellow", "orange", "red","black"))(n = COLOR_SLICES+1)
+scale=10
+
+data=read.csv(args[1],sep=';')
+
+for (sex in 0:2)
+{
+for (wave in 1:2)
+{
+normalise=c()
+for (dep in unique(data$dep))
+{
+dc=data$dc[data$sexe==sex & data$dep==dep & as.Date(data$jour,"%Y-%m-%d")>=as.Date(wave_starts[wave]) & as.Date(data$jour,"%Y-%m-%d")<=as.Date(wave_ends[wave])]
+normalise=append(normalise,(dc[length(dc)]-dc[1])/populations_dep$PTOT[populations_dep$CODDEP==dep]*1e5)
+}
+range=max(pretty(c(0,max(normalise))))
+ordered_color=c()
+for (index in 1:length(departements[[1]]))
+{
+code=as.character(departements[[1]][index])
+x=normalise[unique(data$dep)==departements[[1]][index]]
+ordered_color=append(ordered_color,my_palette[round(x/range*COLOR_SLICES)+1])
+}
+pdf(paste('Metropole_sex_',sex,'_wave_',wave,'.pdf',sep=''),width=6*scale,height=6*scale)
+plot(departements,xlim=c(-6,16),ylim=c(39,53),col=ordered_color)
+for (i in 1:(COLOR_SLICES+1))
+{
+rect(12,39.5+(i-1)/50,12.5,39.5+i/50,col=my_palette[i],border=my_palette[i])
+}
+rect(12,39.5,12.5,39.5+501/50)
+text(12.25,50,'Décès pour 100 000 hab. :')
+lines(c(12,11.8),c(39.5,39.5))
+lines(c(12,11.8),c(39.5,39.5)+501/100)
+lines(c(12,11.8),c(39.5,39.5)+501/50)
+text(12,39.5,0,pos=2)
+text(12,39.5+501/100,range/2,pos=2)
+text(12,39.5+501/50,range,pos=2)
+text(9,38.7,'Source : https://github.com/HKeyHKey/Covid19',cex=0.7)
+dev.off()
+sc=1.097094*scale # Martinique is ~53.5 km long, from North to South
+pdf(paste('Guadeloupe_Martinique_sex_',sex,'_wave_',wave,'.pdf',sep=''),width=sc,height=sc)
+plot(departements,xlim=c(-61.6,-61),ylim=c(14.4,16.7),col=ordered_color)
+dev.off()
+sc=2.42*scale # Guyane is ~398.8 km long, from North to South
+pdf(paste('Guyane_sex_',sex,'_wave_',wave,'.pdf',sep=''),width=sc,height=sc)
+plot(departements,xlim=c(-56,-50),ylim=c(2,6),col=ordered_color)
+dev.off()
+sc=0.5775*scale # Réunion is ~57.5 km long, from North to South
+pdf(paste('Reunion_sex_',sex,'_wave_',wave,'.pdf',sep=''),width=sc,height=sc)
+plot(departements,xlim=c(55,56),ylim=c(-21.5,-20.5),col=ordered_color)
+dev.off()
+sc=0.45*scale # Mayotte is ~40.2 km long, from North to South
+pdf(paste('Mayotte_sex_',sex,'_wave_',wave,'.pdf',sep=''),width=sc,height=sc)
+plot(departements,xlim=c(45,45.5),ylim=c(-13.2,-12.5),col=ordered_color)
+dev.off()
+}
+}
