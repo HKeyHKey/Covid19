@@ -1,0 +1,27 @@
+data=read.table('Gautret_et_al_2020_data.dat',header=T)
+digital=c()
+for (day in 0:6)
+{
+add=c()
+for (i in 1:length(data[,4+day]))
+if (is.na(data[,4+day][i]))
+{
+add=append(add,NA)
+} else
+if (data[,4+day][i]=='NEG')
+{
+add=append(add,0)
+} else add=append(add,1)
+digital=cbind(digital,add)
+}
+
+y=c(digital[,2],digital[,3],digital[,4],digital[,5],digital[,6],digital[,7])
+t=c(rep(1,nrow(digital)),rep(2,nrow(digital)),rep(3,nrow(digital)),rep(4,nrow(digital)),rep(5,nrow(digital)),rep(6,nrow(digital)))
+age=rep(data$Age,6)
+sex=rep(data$Sex,6)
+status=rep(data$Clinical_status,6)
+inclusion=rep(data$Time_before_inclusion,6)
+hcq=rep(data$HCQ,6)
+azth=rep(data$AZTH,6)
+mod=lm(y~log(t)+age+sex+status+hcq+azth) # excluding "Time_before_inclusion" (should be quite redundant with "Clinical_status", and too imprecisely characterized for many patients) ; log(t) rather than t because the decrease in positivity rates is more likely to be a decreasing exponential than linear
+summary(mod) # Result: a clear effect of time and of clinical status at inclusion (asymptomatic patients at inclusion are more likely to have negative PCR's later on), no significant effect of age, sex, HCQ or AZTH treatment
