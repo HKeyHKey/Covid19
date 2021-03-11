@@ -1,0 +1,21 @@
+x=rnorm(20,10,1)
+y=rnorm(15,7,1)
+
+range=range(pretty(range(c(x,y))))
+pdf('Illustration_t-test.pdf',width=6,height=12)
+par(mfrow=c(2,1))
+hist(x,xlim=range,breaks=range[2]-range[1],ylab="Nombre d'observations",main='')
+hist(y,xlim=range,breaks=range[2]-range[1],ylab="Nombre d'observations",main=paste("t-test x vs. y, p-value=",t.test(x,y)$p.value))
+dev.off()
+
+pdf('Illustration_t-test_2.pdf',width=6,height=12)
+par(mfrow=c(2,1))
+hist(x,xlim=range,breaks=range[2]-range[1],ylab="Nombre d'observations",main='')
+a=range[1]+c(0:200)*(range[2]-range[1])/200
+par(new=T)
+plot(a,dnorm(a,10,1),ty='l',col='red')
+hist(y,xlim=range,breaks=range[2]-range[1],ylab="Nombre d'observations",main=paste("t-test x vs. y, p-value=",t.test(x,y)$p.value))
+par(new=T)
+plot(a,dnorm(a,7,1),ty='l',col='red')
+dev.off()
+

@@ -1,0 +1,12 @@
+x=rnorm(10,75,8)
+y=x+rnorm(10,-2,0.5)
+
+pdf('Paired_t-test.pdf',width=6,height=6)
+plot(c(rep(1,10),rep(2,10)),c(x,y),axes=F,xlab='',ylab='')
+axis(2)
+axis(1,labels=c('Condition 1','Condition 2'),at=c(1,2))
+t.test(x,y)$p.value
+t.test(x,y,paired=T)$p.value
+for (i in 1:length(x))
+arrows(1.1,x[i],1.9,y[i],length=0.1)
+dev.off()
