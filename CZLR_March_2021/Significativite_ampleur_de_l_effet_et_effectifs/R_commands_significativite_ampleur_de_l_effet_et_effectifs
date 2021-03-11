@@ -1,0 +1,4 @@
+m=array(c(6,14,3,17),dim=c(2,2))
+fisher.test(m)$p.value
+m=array(c(60,140,30,170),dim=c(2,2))
+fisher.test(m)$p.value
