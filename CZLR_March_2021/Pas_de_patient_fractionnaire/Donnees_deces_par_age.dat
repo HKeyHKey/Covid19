@@ -1,0 +1,7 @@
+# Prises dans https://www.youtube.com/watch?v=Sc1-JBX2y70 (lu comme j'ai pu ! ces nazes ne donnent pas leurs sources, ils se contentent de montrer des graphiques à basse résolution où les chiffres sont à peine lisibles ...)
+Zone_géographique 0-9 10-19 20-29 30-39 40-49 50-59 60-69 70-79 80_+
+Chine_au_11_février_2020 0 1 2 18 38 130 309 312 208
+Grand_Est 1 0 2 15 33 98 350 809 1956 # montrent un graphique où les « 80+ » sont divisés en « 80-89 » et « 90+ », où je lis des nombres de décès à 1321 et 635 respectivement (je reporte ici la somme de ces deux nombres pour homogénéiser les catégories)
+Île_de_France 2 5 15 46 126 490 963 1586 3489 # montrent un graphique où les « 80+ » sont divisés en « 80-89 » et « 90+ », où je lis des nombres de décès à 2154 et 1335 respectivement (je reporte ici la somme de ces deux nombres pour homogénéiser les catégories)
+IHU_Marseille 0 0 0 0 0 0 2 14 19
+IHU_Marseille_traités_bithérapie 0 0 0 0 0 0 1 7 8
