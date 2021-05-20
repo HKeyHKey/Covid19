@@ -65,7 +65,7 @@ lines(c(12,11.8),c(39.5,39.5)+501/50)
 text(12,39.5,0,pos=2)
 text(12,39.5+501/100,range/2,pos=2)
 text(12,39.5+501/50,range,pos=2)
-#text(9,38.7,'Source : https://github.com/HKeyHKey/Covid19',cex=0.7)
+#text(9,38.7,'Source : https://github.com/HKeyHKey/Covid19/tree/master/Resume_un_an_de_controverse',cex=0.7)
 dev.off()
 
 sc=1.097094*scale # Martinique is ~53.5 km long, from North to South
