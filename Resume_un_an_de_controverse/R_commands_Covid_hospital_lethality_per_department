@@ -34,7 +34,7 @@ list(100*dc_list/(dc_list+rad_list),100*(dc_list/(dc_list+rad_list))[dept_list==
 
 library(rgdal)
 departements=rgdal::readOGR('Contours/departements-20140306-100m.shp')
-populations_dep=read.csv2('/home/herve/Covid-19/Epidemiologie/Data_from_Sante_publique_France/Departements.csv',sep=';')
+populations_dep=read.csv2('Data_from_Sante_publique_France/Departements.csv',sep=';')
 ### Below: defines color scales
 COLOR_SLICES=500
 my_palette <- colorRampPalette(c("white","yellow", "orange", "red","black"))(n = COLOR_SLICES+1)
