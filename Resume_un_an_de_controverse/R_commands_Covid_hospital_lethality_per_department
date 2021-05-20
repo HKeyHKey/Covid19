@@ -1,0 +1,93 @@
+args = commandArgs(trailingOnly=TRUE)
+
+data=read.csv(args[1],sep=';')
+start='2020-03-18'
+end='2020-06-20'
+
+wave=subset(data,as.Date(data$jour)>=as.Date(start) & as.Date(data$jour)<=as.Date(end))
+
+time_defined_lethality <- function(wave)
+{
+dept_list=c()
+rad_list=c()
+dc_list=c()
+for (dept in unique(wave$dep))
+{
+rad=wave$rad[wave$dep==dept & wave$sexe==0 & as.Date(wave$jour)==max(as.Date(wave$jour))]-wave$rad[wave$dep==dept & wave$sexe==0 & as.Date(wave$jour)==min(as.Date(wave$jour))]
+dc=wave$dc[wave$dep==dept & wave$sexe==0 & as.Date(wave$jour)==max(as.Date(wave$jour))]-wave$dc[wave$dep==dept & wave$sexe==0 & as.Date(wave$jour)==min(as.Date(wave$jour))]
+dept_list=append(dept_list,dept)
+rad_list=append(rad_list,rad)
+dc_list=append(dc_list,dc)
+}
+pval=c()
+for (dept in unique(wave$dep))
+{
+if (dept!=13)
+{
+pval=append(pval,fisher.test(array(c(dc_list[dept_list==dept],rad_list[dept_list==dept],dc_list[dept_list==13],rad_list[dept_list==13]),dim=c(2,2)))$p.value)
+} else pval=append(pval,NA)
+}
+list(100*dc_list/(dc_list+rad_list),100*(dc_list/(dc_list+rad_list))[dept_list==as.character(13)],p.adjust(pval,method='fdr'))
+}
+
+
+
+library(rgdal)
+departements=rgdal::readOGR('/home/herve/Covid-19/Epidemiologie/Contours/departements-20140306-100m.shp')
+populations_dep=read.csv2('/home/herve/Covid-19/Epidemiologie/Data_from_Sante_publique_France/Departements.csv',sep=';')
+### Below: defines color scales
+COLOR_SLICES=500
+my_palette <- colorRampPalette(c("white","yellow", "orange", "red","black"))(n = COLOR_SLICES+1)
+scale=10
+
+
+out=time_defined_lethality(wave)
+range=max(pretty(c(0,max(out[[1]]))))
+ordered_color=c()
+for (index in 1:length(departements[[1]]))
+{
+code=as.character(departements[[1]][index])
+x=out[[1]][unique(wave$dep)==departements[[1]][index]]
+ordered_color=append(ordered_color,my_palette[round(x/range*COLOR_SLICES)+1])
+}
+
+
+pdf('Metropole.pdf',width=6,height=6)
+plot(departements,xlim=c(-6,16),ylim=c(39,53),col=ordered_color)
+for (i in 1:(COLOR_SLICES+1))
+{
+rect(12,39.5+(i-1)/50,12.5,39.5+i/50,col=my_palette[i],border=my_palette[i])
+}
+rect(12,39.5,12.5,39.5+501/50)
+text(12.25,50,'% de décès des patients Covid hospitalisés :')
+lines(c(12,11.8),c(39.5,39.5))
+lines(c(12,11.8),c(39.5,39.5)+501/100)
+lines(c(12,11.8),c(39.5,39.5)+501/50)
+text(12,39.5,0,pos=2)
+text(12,39.5+501/100,range/2,pos=2)
+text(12,39.5+501/50,range,pos=2)
+#text(9,38.7,'Source : https://github.com/HKeyHKey/Covid19',cex=0.7)
+dev.off()
+
+sc=1.097094*scale # Martinique is ~53.5 km long, from North to South
+pdf('Guadeloupe_Martinique.pdf',width=sc,height=sc)
+plot(departements,xlim=c(-61.6,-61),ylim=c(14.4,16.7),col=ordered_color)
+dev.off()
+sc=2.42*scale # Guyane is ~398.8 km long, from North to South
+pdf('Guyane_vague.pdf',width=sc,height=sc)
+plot(departements,xlim=c(-56,-50),ylim=c(2,6),col=ordered_color)
+dev.off()
+sc=0.5775*scale # Réunion is ~57.5 km long, from North to South
+pdf('Reunion.pdf',width=sc,height=sc)
+plot(departements,xlim=c(55,56),ylim=c(-21.5,-20.5),col=ordered_color)
+dev.off()
+sc=0.45*scale # Mayotte is ~40.2 km long, from North to South
+pdf('Mayotte.pdf',width=sc,height=sc)
+plot(departements,xlim=c(45,45.5),ylim=c(-13.2,-12.5),col=ordered_color)
+dev.off()
+
+### Below: exporting numerical data:
+truc=list(unique(wave$dep),out[[1]],out[[3]])
+names(truc)=c('Département','% de mortalité hospitalière Covid','p-value FDR comparaison avec BdR')
+write.csv(as.data.frame(truc),'Data_mortalite_hospitaliere.csv')
+
