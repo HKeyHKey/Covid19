@@ -78,12 +78,13 @@ y=full_variables[,v2]
 ratio=c()
 for (index in 1:max(c(optimized_offsets[v1],optimized_offsets[v2]))) ratio=append(ratio,NA)
 for (index in (max(c(optimized_offsets[v1],optimized_offsets[v2]))+1):length(t)) ratio=append(ratio,y[index]/x[index-optimized_offsets[v2]+optimized_offsets[v1]])
+ratio=100*ratio # convert into percentages
 y_range=max(pretty(c(0,max(ratio[t>=DISPLAY_START],na.rm=T))))
 y2_range=max(pretty(c(0,max(smoothened_dc[t>=DISPLAY_START],na.rm=T))))
 if ((optimized_offsets[v2]-optimized_offsets[v1]==0) | (optimized_offsets[v2]-optimized_offsets[v1]==1))
 {
-y_name=paste('Noir :',full_variable_names[v2],'/',full_variable_names[v1],optimized_offsets[v2]-optimized_offsets[v1],'jour plus tôt')
-} else y_name=paste('Noir :',full_variable_names[v2],'/',full_variable_names[v1],optimized_offsets[v2]-optimized_offsets[v1],'jours plus tôt')
+y_name=paste('Noir :',full_variable_names[v2],'/',full_variable_names[v1],optimized_offsets[v2]-optimized_offsets[v1],'jour plus tôt (%)')
+} else y_name=paste('Noir :',full_variable_names[v2],'/',full_variable_names[v1],optimized_offsets[v2]-optimized_offsets[v1],'jours plus tôt (%)')
 pdf(paste('Comparison_',v1,'_to_',v2,'.pdf',sep=''),width=12,height=8)
 par(mar = c(4.1, 4.1, 4.1, 4.1))
 plot(t,smoothened_dc,ty='n',axes=F,xlab='',ylab='',ylim=c(0,y2_range),xlim=c(as.Date(DISPLAY_START),max(t)))
