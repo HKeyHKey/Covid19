@@ -1,0 +1,109 @@
+#args = commandArgs(trailingOnly=TRUE)
+args=c('data_on_04092021.csv')
+data=read.csv(args[1])
+
+t=as.Date(data$date)
+daily_dchosp=c(data$dchosp[1])
+for (i in 2:length(data$dchosp))
+daily_dchosp=append(daily_dchosp,data$dchosp[i]-data$dchosp[i-1])
+
+# Below: smoothing by averaging on a 7-day period:
+HALF_WINDOW=3 # the smoothening period will be: 2*HALF_WINDOW+1
+smoothen <- function(raw,half_window)
+{
+out=rep(NA,half_window)
+for (i in (half_window+1):(length(raw)-half_window))
+out=append(out,mean(raw[(i-half_window):(i+half_window)]))
+out=append(out,rep(NA,half_window))
+out
+}
+smoothened_hosp=smoothen(data$incid_hosp,HALF_WINDOW)
+smoothened_rea=smoothen(data$incid_rea,HALF_WINDOW)
+smoothened_dc=smoothen(daily_dchosp,HALF_WINDOW)
+smoothened_pos=smoothen(data$pos,HALF_WINDOW)
+
+### Below: plotting everything on the same graph (adapting y-axis to each range, but only displaying y-axis ticks for "data$pos"):
+#plot(t,smoothened_pos,ty='l')
+#par(new=T);plot(t,smoothened_hosp,col='red',ty='l',axes=F)
+#par(new=T);plot(t,smoothened_rea,col='blue',ty='l',axes=F)
+#par(new=T);plot(t,smoothened_dc,col='green',ty='l',axes=F)
+### Above: plotting everything on the same graph (adapting y-axis to each range, but only displaying y-axis ticks for "data$pos")
+
+OFFSET_RANGE=45 # we will measure correlations between shifted datasets, with the shift ranging from -OFFSET_RANGE to +OFFSET_RANGE
+START="2020-07-24" # Before the summer 2020, COVID tests were limiting (the general population did not have access to tests); they became widely accessible (without prescription) on July 24, 2020 (see https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042148309/)
+PASS="2021-07-21" # when sanitary pass first became mandatory for some activities in France (at that time, only for cultural, sports and entertainment venues; t was extended later to other places)
+DISPLAY_START='2020-07-01' # Display data from that date on
+MAURICETTE='2020-12-27' # Beginning of vaccination campaign in France
+
+variables=cbind(smoothened_hosp,smoothened_rea,smoothened_dc)
+variable_names=c('Hospitalisations','Entrées en réanimation','Décès hospitaliers')
+
+output=c()
+for (offset in (-OFFSET_RANGE:OFFSET_RANGE))
+{
+x=smoothened_pos[t>=START]
+add=c()
+for (v in 1:ncol(variables))
+{
+y=variables[,v][t>=as.Date(START)+offset]
+if (length(x)>length(y)) x=x[1:length(y)]
+if (length(y)>length(x)) y=y[1:length(x)]
+add=append(add,cor.test(x,y,method="pearson")$estimate)
+}
+output=rbind(output,add)
+}
+optimized_offsets=c(0)
+pdf('Determination_of_offset.pdf',width=6,height=15)
+par(mfrow=c(ncol(variables),1))
+for (v in 1:ncol(variables))
+{
+plot((-OFFSET_RANGE:OFFSET_RANGE),output[,v],ty='l',ylab='Coefficient de corrélation',xlab='Décalage (jours)',main=paste(variable_names[v],':'),ylim=c(0,1))
+x_optim=(-OFFSET_RANGE:OFFSET_RANGE)[output[,v]==max(output[,v])]
+y_optim=max(output[,v])
+lines(c(x_optim,x_optim),c(0,y_optim),lty=2,col='red')
+text(x_optim,y_optim,paste(x_optim,'jours'),col='red',pos=3)
+optimized_offsets=append(optimized_offsets,x_optim)
+}
+dev.off()
+
+full_variables=cbind(smoothened_pos,variables)
+full_variable_names=c('Cas positifs',variable_names)
+par(mfrow=c(1,1))
+for (v1 in 1:(ncol(full_variables)-1))
+{
+x=full_variables[,v1]
+for (v2 in (v1+1):ncol(full_variables))
+{
+y=full_variables[,v2]
+ratio=c()
+for (index in 1:max(c(optimized_offsets[v1],optimized_offsets[v2]))) ratio=append(ratio,NA)
+for (index in (max(c(optimized_offsets[v1],optimized_offsets[v2]))+1):length(t)) ratio=append(ratio,y[index]/x[index-optimized_offsets[v2]+optimized_offsets[v1]])
+y_range=max(pretty(c(0,max(ratio[t>=DISPLAY_START],na.rm=T))))
+y2_range=max(pretty(c(0,max(smoothened_dc[t>=DISPLAY_START],na.rm=T))))
+if ((optimized_offsets[v2]-optimized_offsets[v1]==0) | (optimized_offsets[v2]-optimized_offsets[v1]==1))
+{
+y_name=paste('Noir :',full_variable_names[v2],'/',full_variable_names[v1],optimized_offsets[v2]-optimized_offsets[v1],'jour plus tôt')
+} else y_name=paste('Noir :',full_variable_names[v2],'/',full_variable_names[v1],optimized_offsets[v2]-optimized_offsets[v1],'jours plus tôt')
+pdf(paste('Comparison_',v1,'_to_',v2,'.pdf',sep=''),width=12,height=8)
+par(mar = c(4.1, 4.1, 4.1, 4.1))
+plot(t,smoothened_dc,ty='n',axes=F,xlab='',ylab='',ylim=c(0,y2_range),xlim=c(as.Date(DISPLAY_START),max(t)))
+rect(min(t),0,as.Date(START),y2_range,col='lightblue',border=0)
+rect(as.Date(MAURICETTE),0,as.Date(PASS),y2_range,col='lightgreen',border=0)
+rect(as.Date(PASS),0,max(t),y2_range,col='lightpink',border=0)
+arrows(as.Date(START),1.02*y2_range,as.Date(START)+30,1.02*y2_range,length=0.1,col='blue')
+text(as.Date(START),.98*y2_range,"Test sans ordonnance",col='blue',pos=4)
+arrows(as.Date(MAURICETTE),1.02*y2_range,as.Date(MAURICETTE)+30,1.02*y2_range,length=0.1,col='green')
+text(as.Date(MAURICETTE),.98*y2_range,"Vaccination",col='white',pos=4)
+arrows(as.Date(PASS),1.02*y2_range,as.Date(PASS)+30,1.02*y2_range,length=0.1,col='red')
+text(as.Date(PASS),.98*y2_range,"Pass sanitaire",col='red',pos=4)
+par(new=T)
+plot(t,smoothened_dc,col='gray',axes=F,xlab='',ylab='',ty='l',ylim=c(0,y2_range),xlim=c(as.Date(DISPLAY_START),max(t)),lwd=2)
+par(new=T)
+plot(t,ratio,ty='l',ylim=c(0,y_range),xlab='Date',ylab=y_name,axes=F,xlim=c(as.Date(DISPLAY_START),max(t)),lwd=2)
+axis(1,labels=c('01/05/2020','01/09/2020','01/01/2021','01/05/2021','01/09/2021'),at=as.Date(c('2020-05-01','2020-09-01','2021-01-01','2021-05-01','2021-09-01')))
+axis(2)
+axis(4,labels=pretty(c(0,y2_range)),at=y_range/y2_range*pretty(c(0,y2_range)),col='gray',col.axis='gray')
+mtext("Gris : Décès hospitaliers par jour (moyennés sur 7 j. glissants)",side=4,line=3,col='gray')
+dev.off()
+}
+}
