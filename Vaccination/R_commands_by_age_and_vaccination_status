@@ -1,0 +1,53 @@
+data=read.csv('Par_age_covid-19-resultats-par-age-issus-des-appariements-entre-si-vic-si-dep-et-vac-si.csv',sep=';')
+statuses=c('Ensemble','Non-vaccinés','Primo dose récente','Primo dose efficace','Vaccination complète')
+ages=sort(unique(data$age))
+colors=c('blue','green','orange','red','black')
+
+for (s in statuses)
+{
+status_data=list()
+list_index=0
+for (age in ages)
+{
+x=as.Date(data$date[data$vac_statut==s & data$age==age])
+hc=data$HC[data$vac_statut==s & data$age==age]/data$effectif.J.7[data$vac_statut==s & data$age==age]*1e6
+sc=data$SC[data$vac_statut==s & data$age==age]/data$effectif.J.7[data$vac_statut==s & data$age==age]*1e6
+status_data[[list_index+1]]=x
+status_data[[list_index+2]]=hc
+status_data[[list_index+3]]=sc
+list_index=list_index+3
+}
+hc_max=c();sc_max=c();date_range=c()
+for (i in 1:(length(status_data)/3))
+{
+hc_max=append(hc_max,max(status_data[[(i-1)*3+2]]))
+sc_max=append(sc_max,max(status_data[[i*3]]))
+date_range=append(date_range,range(status_data[[(i-1)*3+1]]))
+}
+hc_range=max(pretty(c(0,max(hc_max))))
+sc_range=max(pretty(c(0,max(sc_max))))
+date_range=range(date_range)
+
+pdf(paste('Hospitalisation_conventionnelle_pour_',gsub(' ','_',s),'_stratifie_par_age.pdf',sep=''),width=7,height=7)
+plot(status_data[[1]][order(status_data[[1]])],status_data[[2]][order(status_data[[1]])],xlim=date_range,ylim=c(0,hc_range),ty='n',xlab='Date',ylab='Cas par million',main='Hospitalisation conventionnelle')
+for (i in 1:(length(status_data)/3))
+{
+x=status_data[[(i-1)*3+1]]
+y=status_data[[(i-1)*3+2]]
+par(new=T);plot(x[order(x)],y[order(x)],xlim=date_range,ylim=c(0,hc_range),ty='l',xlab='',ylab='',axes=F,col=colors[i],lwd=2)
+}
+legend('topleft',as.character(ages),pch='_',col=colors,lwd=2)
+dev.off()
+
+pdf(paste('Soins_critiques_pour_',gsub(' ','_',s),'_stratifie_par_age.pdf',sep=''),width=7,height=7)
+plot(status_data[[1]][order(status_data[[1]])],status_data[[3]][order(status_data[[1]])],xlim=date_range,ylim=c(0,sc_range),ty='n',xlab='Date',ylab='Cas par million',main='Soins critiques')
+for (i in 1:(length(status_data)/3))
+{
+x=status_data[[(i-1)*3+1]]
+y=status_data[[i*3]]
+par(new=T);plot(x[order(x)],y[order(x)],xlim=date_range,ylim=c(0,sc_range),ty='l',xlab='',ylab='',axes=F,col=colors[i],lwd=2)
+}
+legend('topleft',as.character(ages),pch='_',col=colors,lwd=2)
+dev.off()
+
+}

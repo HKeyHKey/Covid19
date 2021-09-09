@@ -1,0 +1,28 @@
+data=read.csv('covid-19-resultats-issus-des-appariements-entre-si-vic-si-dep-et-vac-si.csv',sep=';')
+statuses=c('Non-vaccinés','Primo dose récente','Primo dose efficace','Vaccination complète')
+x=as.Date(data$date[data$vac_statut==statuses[1]])
+hc=c();sc=c();dc=c()
+for (s in statuses)
+{
+hc=cbind(hc,data$HC[data$vac_statut==s]/data$effectif.J.7[data$vac_statut==s]*1e6)
+sc=cbind(sc,data$SC[data$vac_statut==s]/data$effectif.J.7[data$vac_statut==s]*1e6)
+dc=cbind(dc,data$DC[data$vac_statut==s]/data$effectif.J.7[data$vac_statut==s]*1e6)
+}
+all=list(hc,sc,dc)
+metrics_names=c('Hospitalisation conventionnelle','Hospitalisation soins critiques','Décès hospitaliers')
+colors=c('black','red','orange','green')
+
+for (metrics in 1:length(all))
+{
+y=all[[metrics]]
+y_range=max(pretty(c(0,max(y))))
+pdf(paste(gsub(' ','_',metrics_names[metrics]),'_for_various_vaccination_statuses.pdf',sep=''),width=7,height=7)
+plot(x[order(x)],y[,1][order(x)],ylim=c(0,y_range),ty='n',xlab='Date',ylab='Cas par million',main=metrics_names[metrics])
+for (s_index in 1:length(statuses))
+{
+s=statuses[s_index]
+par(new=T);plot(x[order(x)],y[,s_index][order(x)],ylim=c(0,y_range),ty='l',xlab='',ylab='',axes=F,lwd=2,col=colors[s_index])
+}
+legend('topleft',statuses,pch='_',col=colors,lwd=2)
+dev.off()
+}
