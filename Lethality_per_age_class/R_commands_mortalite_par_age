@@ -1,0 +1,57 @@
+data=read.csv('donnees-hospitalieres-classe-age-covid19-2021-09-13-19h06.csv',sep=';')
+x=unique(as.Date(data$jour))
+age_classes=unique(data$cl_age90)
+cumul_dc=c()
+for (date in x)
+{
+add=c()
+for (age in age_classes)
+add=append(add,sum(subset(data,data$cl_age90==age & as.Date(data$jour)==date)$dc))
+cumul_dc=rbind(cumul_dc,add)
+}
+
+y_range=max(pretty(c(0,max(cumul_dc[,2:11]/cumul_dc[,1]*100))))
+daily=c(cumul_dc[1,])
+for (i in 2:length(x))
+daily=rbind(daily,cumul_dc[i,]-cumul_dc[i-1,])
+y2_range=max(pretty(c(0,max(daily[,1]))))
+pdf('Deces_cumules_par_classe_d_age.pdf',width=10,height=8)
+par(mar = c(4.1, 4.1, 4.1, 4.1))
+plot(x,smooth(daily[,1]),lwd=2,col='gray',ty='l',xlab='Date',ylab='% des décès cumulés',axes=F,ylim=c(0,y2_range))
+axis(1,labels=c('01/04/2020','01/07/2020','01/10/2020','01/01/2021','01/04/2021','01/07/2021','01/10/2021'),at=as.Date(c("2020-04-01","2020-07-01","2020-10-01","2021-01-01","2021-04-01","2021-07-01","2021-10-01")))
+axis(4,labels=pretty(c(0,y2_range)),at=pretty(c(0,y2_range)),col='gray',col.axis='gray')
+mtext("Gris : Décès hospitaliers par jour (lissés)",side=4,line=3,col='gray')
+colors=rainbow(length(age_classes)-1)
+for (age in 2:length(age_classes))
+{
+par(new=T);plot(x,cumul_dc[,age]/cumul_dc[,1]*100,ty='l',ylim=c(0,y_range),axes=F,xlab='',ylab='',col=colors[age-1],lwd=2)
+}
+axis(2)
+desc=paste(paste(age_classes-9,age_classes,sep='-'),'ans')[-1]
+desc[length(desc)]='90 ans et +'
+legend('topright',desc,pch='_',col=colors,lwd=2)
+dev.off()
+
+pdf('Deces_quotidiens_par_classe_d_age.pdf',width=10,height=8)
+par(mar = c(4.1, 4.1, 4.1, 4.1))
+plot(x,smooth(daily[,1]),lwd=2,col='gray',ty='n',xlab='Date',ylab='Couleurs : % des décès quotidiens (lissés)',axes=F,ylim=c(0,y2_range))
+### Below: smoothening (in order to remove erratic jumps upon data correction - with negative death counts):
+smoothened=c()
+for (age in 1:length(age_classes))
+smoothened=cbind(smoothened,smooth(daily[,age]))
+### Above: smoothening (in order to remove erratic jumps upon data correction - with negative death counts)
+y_range=max(pretty(c(0,max(smoothened[,2:11]/smoothened[,1]*100))))
+for (age in 2:length(age_classes))
+{
+par(new=T);plot(x,smoothened[,age]/smoothened[,1]*100,ty='l',ylim=c(0,y_range),axes=F,xlab='',ylab='',col=colors[age-1],lwd=2)
+}
+axis(2)
+par(new=T);plot(x,smooth(daily[,1]),lwd=2,col='black',ty='l',xlab='',ylab='',axes=F,ylim=c(0,y2_range))
+axis(1,labels=c('01/04/2020','01/07/2020','01/10/2020','01/01/2021','01/04/2021','01/07/2021','01/10/2021'),at=as.Date(c("2020-04-01","2020-07-01","2020-10-01","2021-01-01","2021-04-01","2021-07-01","2021-10-01")))
+axis(4,labels=pretty(c(0,y2_range)),at=pretty(c(0,y2_range)),col='black',col.axis='black')
+mtext("Noir : Décès hospitaliers par jour (lissés)",side=4,line=3,col='black')
+desc=paste(paste(age_classes-9,age_classes,sep='-'),'ans')[-1]
+desc[length(desc)]='90 ans et +'
+legend('topright',desc,pch='_',col=colors,lwd=2)
+dev.off()
+
