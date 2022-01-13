@@ -1,0 +1,57 @@
+data=read.csv('20220113_covid-19-resultats-issus-des-appariements-entre-si-vic-si-dep-et-vac-si.csv',sep=';')
+statuses=sort(unique(data$vac_statut))
+x=as.Date(unique(data$date))
+hc=c();sc=c();dc=c()
+for (s in statuses)
+{
+add=c()
+for (d in x)
+{
+if (length(data$HC[data$vac_statut==s & as.Date(data$date)==d])==0)
+{
+add=append(add,NA)
+} else add=append(add,data$HC[data$vac_statut==s & as.Date(data$date)==d]/data$effectif[data$vac_statut==s & as.Date(data$date)==d]*1e6)
+}
+hc=cbind(hc,add)
+add=c()
+for (d in x)
+{
+if (length(data$SC[data$vac_statut==s & as.Date(data$date)==d])==0)
+{
+add=append(add,NA)
+} else add=append(add,data$SC[data$vac_statut==s & as.Date(data$date)==d]/data$effectif[data$vac_statut==s & as.Date(data$date)==d]*1e6)
+}
+sc=cbind(sc,add)
+add=c()
+for (d in x)
+{
+if (length(data$DC[data$vac_statut==s & as.Date(data$date)==d])==0)
+{
+add=append(add,NA)
+} else add=append(add,data$DC[data$vac_statut==s & as.Date(data$date)==d]/data$effectif[data$vac_statut==s & as.Date(data$date)==d]*1e6)
+}
+dc=cbind(dc,add)
+}
+all=list(hc,sc,dc)
+
+metrics_names=c('Hospitalisation conventionnelle','Hospitalisation soins critiques','Décès hospitaliers')
+colors=c('red','brown3','cornflowerblue','darkblue','green','chartreuse4','black','gray50','gray30')
+widths=c(2,2,2,2,2,2,3,2,2)
+for (metrics in 1:length(all))
+{
+y=all[[metrics]]
+y_range=max(pretty(c(0,max(y,na.rm=T))))
+pdf(paste(gsub(' ','_',metrics_names[metrics]),'_for_various_vaccination_statuses_under_3_dose_scheme.pdf',sep=''),width=9,height=9)
+plot(x[order(x)],y[,1][order(x)],ylim=c(0,y_range),ty='n',xlab='Date',ylab='Cas par million',main=metrics_names[metrics])
+for (s_index in 1:length(statuses))
+{
+s=statuses[s_index]
+par(new=T);plot(x[order(x)],y[,s_index][order(x)],ylim=c(0,y_range),ty='l',xlab='',ylab='',axes=F,lwd=widths[s_index],col=colors[s_index])
+}
+counts=c()
+for (s in statuses)
+counts=append(counts,formatC(mean(data$effectif[data$vac_statut==s]),digits=1))
+legend('topleft',legend=paste(statuses," (nombre ~ ",counts,")",sep=""),pch='_',col=colors,lwd=widths)
+dev.off()
+}
+
