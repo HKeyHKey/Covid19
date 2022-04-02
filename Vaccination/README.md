@@ -30,7 +30,7 @@ Resulting graphs: 'Hospitalisation_conventionnelle_pour_\*.pdf' and 'Soins_criti
 
 Resulting graphs: 'Hospitalisation_conventionnelle_for_various_vaccination_statuses_under_3_dose_scheme.pdf', 'Hospitalisation_soins_critiques_for_various_vaccination_statuses_under_3_dose_scheme.pdf' and 'Décès_hospitaliers_for_various_vaccination_statuses_under_3_dose_scheme.pdf'.
 
-## Plot tracing (stratified by age class, and focusing on hospitalization, critical care and death _for_ Covid): ##
+## Plot tracing (stratified by age class, and focusing on hospitalization, critical care and death _for_ Covid: April 2022 data): ##
 
 Data file downloaded on April 2, 2022 from [the DREES website](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/covid-19-resultats-par-age-issus-des-appariements-entre-si-vic-si-dep-et-vac-si/download/?format=csv&timezone=Europe/Berlin&lang=fr&use_labels_for_header=true&csv_separator=%3B) (file renamed '20220402_covid-19-resultats-par-age-issus-des-appariements-entre-si-vic-si-dep-et-vac-si.csv'), then:
 
