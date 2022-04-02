@@ -29,3 +29,11 @@ Resulting graphs: 'Hospitalisation_conventionnelle_pour_\*.pdf' and 'Soins_criti
 ``R CMD BATCH R_commands_vaccination_data_January2022``
 
 Resulting graphs: 'Hospitalisation_conventionnelle_for_various_vaccination_statuses_under_3_dose_scheme.pdf', 'Hospitalisation_soins_critiques_for_various_vaccination_statuses_under_3_dose_scheme.pdf' and 'Décès_hospitaliers_for_various_vaccination_statuses_under_3_dose_scheme.pdf'.
+
+## Plot tracing (stratified by age class, and focusing on hospitalization, critical care and death _for_ Covid): ##
+
+Data file downloaded on April 2, 2022 from [the DREES website](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/covid-19-resultats-par-age-issus-des-appariements-entre-si-vic-si-dep-et-vac-si/download/?format=csv&timezone=Europe/Berlin&lang=fr&use_labels_for_header=true&csv_separator=%3B) (file renamed '20220402_covid-19-resultats-par-age-issus-des-appariements-entre-si-vic-si-dep-et-vac-si.csv'), then:
+
+``R CMD BATCH R_commands_by_age_and_vaccination_status_April2022``
+
+Resulting graphs: 'Hospitalisation_conventionnelle_pour_Covid_pour_age_\*\_stratifie_par_statut_vaccinal.pdf', 'Soins_critiques_pour_Covid_pour_age_\*\_stratifie_par_statut_vaccinal.pdf' and 'Décès_hospitalier_pour_Covid_pour_age_\*\_stratifie_par_statut_vaccinal.pdf'.
