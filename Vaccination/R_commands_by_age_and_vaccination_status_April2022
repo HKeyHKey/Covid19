@@ -1,0 +1,59 @@
+COUNT_CUTOFF=1e4 # ignores data points were head count is smaller than this number
+
+data=read.csv('20220402_covid-19-resultats-par-age-issus-des-appariements-entre-si-vic-si-dep-et-vac-si.csv',sep=';')
+statuses=sort(unique(data$vac_statut))
+ages=sort(unique(data$age))
+colors=c('red','brown3','cornflowerblue','darkblue','green','chartreuse4','black','gray50','gray30')
+description=c('Hospitalisation conventionnelle pour Covid','Soins critiques pour Covid','Décès hospitalier pour Covid')
+
+### Below: one graph per age class:
+for (age in ages)
+{
+age_data=list()
+list_index=0
+for (s in statuses)
+{
+x=as.Date(data$date[data$vac_statut==s & data$age==age])
+hc=data$HC_PCR._pour_covid[data$vac_statut==s & data$age==age]/data$effectif[data$vac_statut==s & data$age==age]*1e6
+sc=data$SC_PCR._pour_covid[data$vac_statut==s & data$age==age]/data$effectif[data$vac_statut==s & data$age==age]*1e6
+dc=data$DC_PCR._pour_covid[data$vac_statut==s & data$age==age]/data$effectif[data$vac_statut==s & data$age==age]*1e6
+### Below: ignores data points were head count < COUNT_CUTOFF
+hc[data$effectif[data$vac_statut==s & data$age==age]<COUNT_CUTOFF]=NA
+sc[data$effectif[data$vac_statut==s & data$age==age]<COUNT_CUTOFF]=NA
+dc[data$effectif[data$vac_statut==s & data$age==age]<COUNT_CUTOFF]=NA
+### Above: ignores data points were head count < COUNT_CUTOFF
+age_data[[list_index+1]]=x
+age_data[[list_index+2]]=hc
+age_data[[list_index+3]]=sc
+age_data[[list_index+4]]=dc
+list_index=list_index+4
+}
+hc_max=c();sc_max=c();dc_max=c();date_range=c()
+for (i in 1:length(statuses))
+{
+hc_max=append(hc_max,max(age_data[[i*4-2]],na.rm=T))
+sc_max=append(sc_max,max(age_data[[i*4-1]],na.rm=T))
+dc_max=append(dc_max,max(age_data[[i*4]],na.rm=T))
+date_range=append(date_range,range(age_data[[(i-1)*4+1]]))
+}
+hc_range=max(pretty(c(0,max(hc_max))))
+sc_range=max(pretty(c(0,max(sc_max))))
+dc_range=max(pretty(c(0,max(dc_max))))
+all_ranges=c(hc_range,sc_range,dc_range)
+date_range=range(date_range)
+for (metrics in 1:3)
+{
+desc=gsub(' ','_',description[metrics])
+pdf(paste(desc,'_pour_age_',sub(';','',sub(',','_a_',sub('\\]','',sub('\\[','',age)))),'_stratifie_par_statut_vaccinal.pdf',sep=''),width=7,height=7)
+plot(age_data[[1]][order(age_data[[1]])],age_data[[2]][order(age_data[[1]])],xlim=date_range,ylim=c(0,all_ranges[metrics]),ty='n',xlab='Date',ylab='Cas par million',main=paste(description[metrics],', âge : ',age,sep=''))
+for (i in 1:(length(age_data)/4))
+{
+x=age_data[[(i-1)*4+1]]
+y=age_data[[(i-1)*4+metrics+1]]
+par(new=T);plot(x[order(x)],y[order(x)],xlim=date_range,ylim=c(0,all_ranges[metrics]),ty='l',xlab='',ylab='',axes=F,col=colors[i],lwd=2)
+}
+legend('topleft',as.character(statuses),pch='_',col=colors,lwd=2)
+dev.off()
+}
+
+}
