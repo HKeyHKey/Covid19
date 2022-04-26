@@ -1,10 +1,14 @@
 COUNT_CUTOFF=1e4 # ignores data points were head count is smaller than this number
 
-data=read.csv('20220402_covid-19-resultats-par-age-issus-des-appariements-entre-si-vic-si-dep-et-vac-si.csv',sep=';')
+data=read.csv('20220423_covid-19-resultats-par-age-issus-des-appariements-entre-si-vic-si-dep-et-vac-si.csv',sep=';')
 statuses=sort(unique(data$vac_statut))
 ages=sort(unique(data$age))
 colors=c('red','brown3','cornflowerblue','darkblue','green','chartreuse4','black','gray50','gray30')
 description=c('Hospitalisation conventionnelle pour Covid','Soins critiques pour Covid','Décès hospitalier pour Covid')
+
+wave1=c('2021-07-15','2021-10-01')
+wave2=c('2021-11-15','2022-03-01')
+
 
 ### Below: one graph per age class:
 for (age in ages)
@@ -54,6 +58,30 @@ par(new=T);plot(x[order(x)],y[order(x)],xlim=date_range,ylim=c(0,all_ranges[metr
 }
 legend('topleft',as.character(statuses),pch='_',col=colors,lwd=2)
 dev.off()
+### Below: calculating decrease in risk in vaccinated vs. unvaccinated cohorts:
+print(paste('Réduction du risque, ',description[metrics],', âge : ',age,':',sep=''))
+i=7 # this is the unvaccinated cohort
+unvaccinated=sum(age_data[[(i-1)*4+metrics+1]][age_data[[(i-1)*4+1]]>=as.Date(wave1[1]) & age_data[[(i-1)*4+1]]<=as.Date(wave1[2])])
+for (i in 4:6) # this is the doubly not-triply vaccinated cohort
+{
+doubly_vaccinated=sum(age_data[[(i-1)*4+metrics+1]][age_data[[(i-1)*4+1]]>=as.Date(wave1[1]) & age_data[[(i-1)*4+1]]<=as.Date(wave1[2])],na.rm=T)
+print(paste('Vague 1, Non-vaccinés /',statuses[i]))
+print(unvaccinated/doubly_vaccinated)
 }
-
+i=7 # this is the unvaccinated cohort
+unvaccinated=sum(age_data[[(i-1)*4+metrics+1]][age_data[[(i-1)*4+1]]>=as.Date(wave2[1]) & age_data[[(i-1)*4+1]]<=as.Date(wave2[2])])
+for (i in 4:6) # this is the doubly not-triply vaccinated cohort
+{
+doubly_vaccinated=sum(age_data[[(i-1)*4+metrics+1]][age_data[[(i-1)*4+1]]>=as.Date(wave2[1]) & age_data[[(i-1)*4+1]]<=as.Date(wave2[2])],na.rm=T)
+print(paste('Vague 2, Non-vaccinés /',statuses[i]))
+print(unvaccinated/doubly_vaccinated)
+}
+for (i in 1:3) # this is the triply vaccinated cohort
+{
+triply_vaccinated=sum(age_data[[(i-1)*4+metrics+1]][age_data[[(i-1)*4+1]]>=as.Date(wave2[1]) & age_data[[(i-1)*4+1]]<=as.Date(wave2[2])],na.rm=T)
+print(paste('Vague 2, Non-vaccinés /',statuses[i]))
+print(unvaccinated/triply_vaccinated)
+}
+### Above: calculating decrease in risk in vaccinated vs. unvaccinated cohorts
+}
 }
